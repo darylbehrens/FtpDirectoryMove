@@ -96,7 +96,7 @@ namespace CID.Sftp.DirectoryTransfer
             }
 
             Log.Information($"Succesfully Processed {directoryCount} {(directoryCount == 1 ? "directory" : "directories")}.");
-            Log.Information($"Succesfully Processed {fileCount} {(fileCount == 1 ? "files" : "file")}.");
+            Log.Information($"Succesfully Processed {fileCount} {(fileCount == 1 ? "file" : "files")}.");
             Log.Information($"Ending CID.Sftp.DirectoryTransfer {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}\n");
         }
     }
