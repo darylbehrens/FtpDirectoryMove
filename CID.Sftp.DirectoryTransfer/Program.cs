@@ -4,6 +4,8 @@ using System.Linq;
 using WinSCP;
 using Serilog;
 using System.Configuration;
+using System.Collections.Specialized;
+using Serilog.Core;
 
 namespace CID.Sftp.DirectoryTransfer
 {
@@ -25,47 +27,41 @@ namespace CID.Sftp.DirectoryTransfer
             int directoryCount = 0;
             int fileCount = 0;
 
-            // Setup Logger
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.LiterateConsole()
-                .WriteTo.RollingFile(@"logs\{Date}.log")
-                .CreateLogger();
+            if (!Directory.Exists(@"..\logs"))
+            {
+                Directory.CreateDirectory(@"..\logs");
+            }
 
-            Log.Information($"Starting CID.Sftp.DirectoryTransfer {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}");
+            // Setup Logger
+            CreateLogger();
+
+            // Log Start Of Program
+            Log.Information($"Starting CID.Sftp.DirectoryTransfer");
 
             // Setup Options for FTP Session
-            SessionOptions sessionOptions = new SessionOptions()
-            {
-                Protocol = Protocol.Ftp,
-                HostName = appSettings["FtpAddress"],
-                UserName = appSettings["FtpLogin"],
-                Password = appSettings["FtpSecret"]
-            };
+            SessionOptions sessionOptions = GetSessionOptions(appSettings);
 
             // Setup Transfer Options for FTP Session
-            TransferOptions transferOp = new TransferOptions()
-            {
-                TransferMode = TransferMode.Binary
-            };
+            TransferOptions transferOp = GetTransferOptions();
 
-            // Link to Base Directory, and Create Array of Strings With Full Directory and Individual Directroy Name
+            // Link to Base Directory, and Create Enumerable of Strings With Full Directory and Individual Directroy Name
             DirectoryInfo baseDir = new DirectoryInfo(baseDirString);
             var subFolders = baseDir.GetDirectories().Select(x => new { x.FullName, x.Name });
 
             try
             {
+                // Transfer Files and Move Directories
                 using (Session session = new Session())
                 {
                     // Open Session
-                    session.SessionLogPath = AppDomain.CurrentDomain.BaseDirectory + @"\logs\winscp." + DateTime.Now.ToString("yy-MM-dd") + ".log";
+                    session.SessionLogPath = $@"..\logs\winscp.{DateTime.Now.ToString("yy-MM-dd")}.log";
                     session.Open(sessionOptions);
 
                     // Loop Through Directroy Full names and Individual Names
                     foreach (var dir in subFolders)
                     {
                         directoryCount++;
-                        Log.Information($"{tab}Tranfering files from {dir.Name} directory");
+                        Log.Information($"{tab}{tab}Tranfering files from {dir.Name} directory");
 
                         // Upload File
                         TransferOperationResult transferResult;
@@ -76,13 +72,13 @@ namespace CID.Sftp.DirectoryTransfer
                         foreach (TransferEventArgs ev in transferResult.Transfers)
                         {
                             fileCount++;
-                            Log.Information($"{tab}{tab}File {ev.FileName} has been transfered to FTP site");
+                            Log.Information($"{tab}{tab}{tab}File {ev.FileName} has been transfered to FTP site");
                         }
 
                         // Move Directroy To Sent Directory
                         string sentDir = Path.Combine(sentDirString, dir.Name);
                         Directory.Move(dir.FullName, sentDir);
-                        Log.Information($"{tab}Directory {dir.Name} successfully processed and moved");
+                        Log.Information($"{tab}{tab}Directory {dir.Name} successfully processed and moved");
                     }
                 }
             }
@@ -95,9 +91,49 @@ namespace CID.Sftp.DirectoryTransfer
                 Log.Error(ex, "WinScp Error");
             }
 
-            Log.Information($"Succesfully Processed {directoryCount} {(directoryCount == 1 ? "directory" : "directories")}.");
-            Log.Information($"Succesfully Processed {fileCount} {(fileCount == 1 ? "file" : "files")}.");
-            Log.Information($"Ending CID.Sftp.DirectoryTransfer {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}\n");
+            // Final Logging
+            if (directoryCount == 0)
+            {
+                Log.Information($"{tab}No Directories Or Files To Process");
+            }
+            else
+            {
+                Log.Information($"{tab}Succesfully Processed {directoryCount} {(directoryCount == 1 ? "directory" : "directories")}.");
+                Log.Information($"{tab}Succesfully Processed {fileCount} {(fileCount == 1 ? "file" : "files")}.");
+            }
+            Log.Information($"Ending CID.Sftp.DirectoryTransfer");
+        }
+
+        private static SessionOptions GetSessionOptions(NameValueCollection appSettings)
+        {
+            SessionOptions sessionOptions = new SessionOptions()
+            {
+                Protocol = Protocol.Ftp,
+                HostName = appSettings["FtpAddress"],
+                UserName = appSettings["FtpLogin"],
+                Password = appSettings["FtpSecret"]
+            };
+
+            return sessionOptions;
+        }
+
+        private static TransferOptions GetTransferOptions()
+        {
+            var transferOptions = new TransferOptions()
+            {
+                TransferMode = TransferMode.Binary
+            };
+
+            return transferOptions;
+        }
+
+        private static void CreateLogger()
+        {
+            Log.Logger = new LoggerConfiguration()
+               .MinimumLevel.Debug()
+               .WriteTo.LiterateConsole()
+               .WriteTo.RollingFile(@"..\logs\{Date}.log")
+               .CreateLogger();
         }
     }
 }
