@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WinSCP;
 using Serilog;
 using System.Configuration;
@@ -23,6 +20,19 @@ namespace CID.Sftp.DirectoryTransfer
             var appSettings = ConfigurationManager.AppSettings;
             string baseDirString = appSettings["BaseDirectory"];
             string sentDirString = appSettings["SentDirectory"];
+            string date = DateTime.Now.ToString("yy-MM-dd");
+            string tab = "    ";
+            int directoryCount = 0;
+            int fileCount = 0;
+
+            // Setup Logger
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.LiterateConsole()
+                .WriteTo.RollingFile(@"logs\{Date}.log")
+                .CreateLogger();
+
+            Log.Information($"Starting CID.Sftp.DirectoryTransfer {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}");
 
             // Setup Options for FTP Session
             SessionOptions sessionOptions = new SessionOptions()
@@ -48,41 +58,46 @@ namespace CID.Sftp.DirectoryTransfer
                 using (Session session = new Session())
                 {
                     // Open Session
+                    session.SessionLogPath = AppDomain.CurrentDomain.BaseDirectory + @"\logs\winscp." + DateTime.Now.ToString("yy-MM-dd") + ".log";
                     session.Open(sessionOptions);
 
                     // Loop Through Directroy Full names and Individual Names
                     foreach (var dir in subFolders)
                     {
+                        directoryCount++;
+                        Log.Information($"{tab}Tranfering files from {dir.Name} directory");
+
                         // Upload File
                         TransferOperationResult transferResult;
                         transferResult = session.PutFiles(dir.FullName + @"\*", appSettings["FtpDirectory"], false, transferOp);
                         transferResult.Check();
 
                         // For Logging
-                        foreach (TransferEventArgs error in transferResult.Transfers)
+                        foreach (TransferEventArgs ev in transferResult.Transfers)
                         {
-                            Console.WriteLine($"File {error.FileName} has been transfered to FTP site at {error.Destination}");
-                            // Need to Find Out What Information needs to be logged
+                            fileCount++;
+                            Log.Information($"{tab}{tab}File {ev.FileName} has been transfered to FTP site");
                         }
 
                         // Move Directroy To Sent Directory
                         string sentDir = Path.Combine(sentDirString, dir.Name);
                         Directory.Move(dir.FullName, sentDir);
+                        Log.Information($"{tab}Directory {dir.Name} successfully processed and moved");
                     }
                 }
             }
             catch (IOException ioEx)
             {
-                Console.WriteLine(ioEx.Message);
-                // Log IO Exception from Directroy Move
+                Log.Error(ioEx, "IO Error");
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
-                // Log Generic Exception which is what is thrown by WinScp
+                Log.Error(ex, "WinScp Error");
             }
 
-            Console.ReadLine();
+            Log.Information($"Succesfully Processed {directoryCount} {(directoryCount == 1 ? "directory" : "directories")}.");
+            Log.Information($"Succesfully Processed {fileCount} {(fileCount == 1 ? "files" : "file")}.");
+            Log.Information($"Ending CID.Sftp.DirectoryTransfer {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}\n");
         }
     }
 }
