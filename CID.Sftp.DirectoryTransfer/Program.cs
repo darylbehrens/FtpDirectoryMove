@@ -12,6 +12,12 @@ namespace CID.Sftp.DirectoryTransfer
 {
     class Program
     {
+        /// <summary>
+        /// Program will through directories of a base directory
+        /// and copy all files from base directory to a root FTP directory
+        /// Then move subdivrectory to a sent location
+        /// </summary>
+        /// <param></param>
         static void Main(string[] args)
         {
             var appSettings = ConfigurationManager.AppSettings;
