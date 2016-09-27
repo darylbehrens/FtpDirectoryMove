@@ -65,7 +65,6 @@ namespace CID.Sftp.DirectoryTransfer
                     }
                 }
             }
-
             catch (IOException ioEx)
             {
                 Console.WriteLine(ioEx.Message);
