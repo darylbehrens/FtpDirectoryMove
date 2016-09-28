@@ -1,0 +1,31 @@
+2016-09-27 10:11:43.384 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer 2016-09-27 10:11:43
+2016-09-27 10:11:45.157 -07:00 [Information]     Tranfering files from C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123
+2016-09-27 10:11:45.324 -07:00 [Information]         File C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt has been transfered to FTP site at /Genex/Test.txt
+2016-09-27 10:11:45.328 -07:00 [Information] C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123 directory successfully moved to C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir\123
+2016-09-27 10:18:56.069 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer 2016-09-27 10:18:56
+2016-09-27 10:18:57.874 -07:00 [Information]     Tranfering files from 123
+2016-09-27 10:18:58.039 -07:00 [Information]         File C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt has been transfered to FTP site at /Genex/Test.txt
+2016-09-27 10:18:58.041 -07:00 [Information]     123 directory successfully processed and moved
+2016-09-27 10:18:58.148 -07:00 [Information] Succesfully Processed 1 directories.
+2016-09-27 10:18:58.150 -07:00 [Information] Succesfully Processed 1 files
+2016-09-27 10:18:58.151 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer 2016-09-27 10:18:58
+2016-09-27 10:21:27.714 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer 2016-09-27 10:21:27
+2016-09-27 10:21:29.498 -07:00 [Information]     Tranfering files from 123
+2016-09-27 10:21:29.660 -07:00 [Information]         File C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt has been transfered to FTP site at /Genex/Test.txt
+2016-09-27 10:21:29.793 -07:00 [Error] IO Error
+System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalMove(String sourceDirName, String destDirName, Boolean checkHost)
+   at System.IO.Directory.Move(String sourceDirName, String destDirName)
+   at CID.Sftp.DirectoryTransfer.Program.Main(String[] args) in C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\Program.cs:line 84
+2016-09-27 10:21:29.796 -07:00 [Information] Succesfully Processed 1 directory.
+2016-09-27 10:21:29.797 -07:00 [Information] Succesfully Processed 1 files.
+2016-09-27 10:21:29.798 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer 2016-09-27 10:21:29
+2016-09-27 10:22:29.033 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer 2016-09-27 10:22:29
+2016-09-27 10:22:30.819 -07:00 [Information]     Tranfering files from 123
+2016-09-27 10:22:30.984 -07:00 [Information]         File C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt has been transfered to FTP site at /Genex/Test.txt
+2016-09-27 10:22:30.986 -07:00 [Information]     123 directory successfully processed and moved
+2016-09-27 10:22:31.095 -07:00 [Information] Succesfully Processed 1 directory.
+2016-09-27 10:22:31.097 -07:00 [Information] Succesfully Processed 1 files.
+2016-09-27 10:22:31.098 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer 2016-09-27 10:22:31

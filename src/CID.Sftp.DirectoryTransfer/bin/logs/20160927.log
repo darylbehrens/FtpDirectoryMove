@@ -1,0 +1,96 @@
+2016-09-27 10:50:56.271 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer 2016-09-27 10:50:56
+2016-09-27 10:50:58.969 -07:00 [Information]     Succesfully Processed 0 directories.
+2016-09-27 10:50:58.971 -07:00 [Information]     Succesfully Processed 0 files.
+2016-09-27 10:50:58.972 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer 2016-09-27 10:50:58
+
+2016-09-27 11:01:03.506 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 11:01:05.322 -07:00 [Information]         Tranfering files from 123 directory
+2016-09-27 11:01:05.490 -07:00 [Information]             File C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt has been transfered to FTP site
+2016-09-27 11:01:05.494 -07:00 [Information]         Directory 123 successfully processed and moved
+2016-09-27 11:01:05.605 -07:00 [Information]     Succesfully Processed 1 directory.
+2016-09-27 11:01:05.607 -07:00 [Information]     Succesfully Processed 1 file.
+2016-09-27 11:01:05.608 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 11:01:08.844 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 11:01:09.371 -07:00 [Information] No Directories Or Files To Process
+2016-09-27 11:01:09.372 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 11:01:29.309 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 11:01:32.781 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 11:01:32.784 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 13:24:02.004 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 18:20:14.281 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 18:53:48.459 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 18:53:50.384 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 18:53:50.385 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:07:22.785 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:07:25.512 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:07:25.513 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:08:36.079 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:08:38.144 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:08:38.145 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:10:41.521 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:10:43.508 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:10:43.509 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:10:51.997 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:10:54.079 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:10:54.080 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:11:23.825 -07:00 [Information] BaseDirectory - C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir
+SentDirectory - C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir
+FtpAddress - waws-prod-bay-007.ftp.azurewebsites.windows.net
+FtpLogin - appagainsthumanity\daryllogin
+FtpSecret - testPassword
+FtpDirectory - /Genex/
+
+2016-09-27 19:11:23.860 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:11:25.877 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:11:25.878 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:12:22.723 -07:00 [Information] BaseDirectory - C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir | SentDirectory - C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir | FtpAddress - waws-prod-bay-007.ftp.azurewebsites.windows.net | FtpLogin - appagainsthumanity\daryllogin | FtpSecret - testPassword | FtpDirectory - /Genex/ | 
+2016-09-27 19:12:22.758 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:12:24.726 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:12:24.727 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:17:35.101 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpSecret": "testPassword"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:17:35.202 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:17:37.113 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:17:37.114 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:17:51.863 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpSecret": "testPassword"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:17:51.903 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:17:53.847 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:17:53.847 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:19:30.103 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpSecret": "testPassword"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:19:30.157 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:19:32.839 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:19:32.840 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:21:59.530 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpSecret": "testPassword"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:21:59.563 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:22:01.450 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:22:01.450 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:22:15.178 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpSecret": "testPassword"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:22:15.229 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:22:15.915 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:22:15.916 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:23:38.959 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpSecret": "testPassword"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:23:38.992 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:23:46.131 -07:00 [Information] [("BaseDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir"), ("SentDirectory": "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir"), ("FtpAddress": "waws-prod-bay-007.ftp.azurewebsites.windows.net"), ("FtpLogin": "appagainsthumanity\daryllogin"), ("FtpDirectory": "/Genex/")]
+2016-09-27 19:23:46.162 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:23:46.813 -07:00 [Information]     No Directories Or Files To Process
+2016-09-27 19:23:46.814 -07:00 [Information] Ending CID.Sftp.DirectoryTransfer
+2016-09-27 19:58:43.692 -07:00 [Information] Options { BaseDirectory: "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir", SentDirectory: "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir", FtpDirectory: "/Genex/", FtpAddress: "waws-prod-bay-007.ftp.azurewebsites.windows.net", FtpLogin: "appagainsthumanity\daryllogin" }
+2016-09-27 19:58:43.760 -07:00 [Information] Starting CID.Sftp.DirectoryTransfer
+2016-09-27 19:59:14.716 -07:00 [Information] Options { BaseDirectory: "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir", SentDirectory: "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir", FtpDirectory: "/Genex/", FtpAddress: "waws-prod-bay-007.ftp.azurewebsites.windows.net", FtpLogin: "appagainsthumanity\daryllogin" }
+2016-09-27 20:06:09.623 -07:00 [Information] Options { BaseDirectory: "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir", SentDirectory: "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\sentDir", FtpDirectory: "/Genex/", FtpAddress: "waws-prod-bay-007.ftp.azurewebsites.windows.net", FtpLogin: "appagainsthumanity\daryllogin" }
+2016-09-27 20:06:10.742 -07:00 [Error] Process has terminated
+WinSCP.SessionRemoteException: Authentication failed.
+   at WinSCP.SessionLogReader.Read(LogReadFlags flags)
+   at WinSCP.ElementLogReader.Read(LogReadFlags flags)
+   at WinSCP.SessionElementLogReader.Read(LogReadFlags flags)
+   at WinSCP.CustomLogReader.TryWaitForNonEmptyElement(String localName, LogReadFlags flags)
+   at WinSCP.Session.Open(SessionOptions sessionOptions)
+   at CID.Sftp.DirectoryTransfer.Program.Upload(Options options) in C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\Program.cs:line 64
+   at CID.Sftp.DirectoryTransfer.Program.Main(String[] args) in C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\Program.cs:line 31
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

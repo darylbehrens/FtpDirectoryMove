@@ -1,0 +1,1585 @@
+. 2016-09-27 10:50:56.403 --------------------------------------------------------------------------
+. 2016-09-27 10:50:56.403 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 10:50:56.403 Configuration: nul
+. 2016-09-27 10:50:56.404 Log level: Normal
+. 2016-09-27 10:50:56.404 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 10:50:56.404 Working directory: c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 10:50:56.404 Process ID: 12192
+. 2016-09-27 10:50:56.404 Command-line: "c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp17AC.02A24DA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_6060_67006466_949
+. 2016-09-27 10:50:56.406 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 10:50:56.406 Login time: Tuesday, September 27, 2016 10:50:56 AM
+. 2016-09-27 10:50:56.407 --------------------------------------------------------------------------
+. 2016-09-27 10:50:56.407 Script: Retrospectively logging previous script records:
+> 2016-09-27 10:50:56.407 Script: option batch on
+< 2016-09-27 10:50:56.407 Script: batch           on        
+< 2016-09-27 10:50:56.407 Script: reconnecttime   120       
+> 2016-09-27 10:50:56.407 Script: option confirm off
+< 2016-09-27 10:50:56.407 Script: confirm         off       
+> 2016-09-27 10:50:56.407 Script: option reconnecttime 120
+< 2016-09-27 10:50:56.407 Script: reconnecttime   120       
+> 2016-09-27 10:50:56.407 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 10:50:56.407 --------------------------------------------------------------------------
+. 2016-09-27 10:50:56.407 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 10:50:56.407 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 10:50:56.407 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 10:50:56.407 Transfer Protocol: FTP
+. 2016-09-27 10:50:56.407 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 10:50:56.407 Disable Nagle: No
+. 2016-09-27 10:50:56.407 Proxy: None
+. 2016-09-27 10:50:56.407 Send buffer: 262144
+. 2016-09-27 10:50:56.407 UTF: Auto
+. 2016-09-27 10:50:56.407 FTPS: None [Client certificate: No]
+. 2016-09-27 10:50:56.407 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 10:50:56.407 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 10:50:56.407 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 10:50:56.407 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 10:50:56.407 Timezone offset: 0h 0m
+. 2016-09-27 10:50:56.407 --------------------------------------------------------------------------
+. 2016-09-27 10:50:56.436 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 10:50:56.534 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 10:50:56.548 220 Microsoft FTP Service
+> 2016-09-27 10:50:56.548 USER appagainsthumanity\daryllogin
+< 2016-09-27 10:50:56.561 331 Password required
+> 2016-09-27 10:50:56.561 PASS ************
+< 2016-09-27 10:50:57.959 230 User logged in.
+> 2016-09-27 10:50:57.959 SYST
+. 2016-09-27 10:50:57.973 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 10:50:57.973 215 Windows_NT
+> 2016-09-27 10:50:57.973 FEAT
+< 2016-09-27 10:50:57.995 211-Extended features supported:
+< 2016-09-27 10:50:57.995  LANG EN*
+< 2016-09-27 10:50:57.995  UTF8
+< 2016-09-27 10:50:57.996  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 10:50:57.996  PBSZ
+< 2016-09-27 10:50:57.996  PROT C;P;
+< 2016-09-27 10:50:57.996  CCC
+< 2016-09-27 10:50:57.996  HOST
+< 2016-09-27 10:50:57.996  SIZE
+< 2016-09-27 10:50:57.996  MDTM
+< 2016-09-27 10:50:57.996  REST STREAM
+< 2016-09-27 10:50:57.996 211 END
+> 2016-09-27 10:50:57.996 OPTS UTF8 ON
+< 2016-09-27 10:50:58.013 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 10:50:58.013 Connected
+. 2016-09-27 10:50:58.013 --------------------------------------------------------------------------
+. 2016-09-27 10:50:58.013 Using FTP protocol.
+. 2016-09-27 10:50:58.013 Doing startup conversation with host.
+> 2016-09-27 10:50:58.014 PWD
+< 2016-09-27 10:50:58.027 257 "/" is current directory.
+. 2016-09-27 10:50:58.027 Getting current directory name.
+. 2016-09-27 10:50:58.027 Startup conversation with host finished.
+< 2016-09-27 10:50:58.027 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 10:50:58.810 Script: pwd
+< 2016-09-27 10:50:58.810 Script: /
+> 2016-09-27 10:50:58.863 Script: exit
+. 2016-09-27 10:50:58.865 Script: Exit code: 0
+. 2016-09-27 10:50:58.867 Disconnected from server
+. 2016-09-27 11:01:03.657 --------------------------------------------------------------------------
+. 2016-09-27 11:01:03.658 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 11:01:03.658 Configuration: nul
+. 2016-09-27 11:01:03.658 Log level: Normal
+. 2016-09-27 11:01:03.658 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 11:01:03.658 Working directory: c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 11:01:03.658 Process ID: 6472
+. 2016-09-27 11:01:03.658 Command-line: "c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1C90.032F6B38.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_7312_55957744_721
+. 2016-09-27 11:01:03.658 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 11:01:03.658 Login time: Tuesday, September 27, 2016 11:01:03 AM
+. 2016-09-27 11:01:03.658 --------------------------------------------------------------------------
+. 2016-09-27 11:01:03.658 Script: Retrospectively logging previous script records:
+> 2016-09-27 11:01:03.658 Script: option batch on
+< 2016-09-27 11:01:03.658 Script: batch           on        
+< 2016-09-27 11:01:03.658 Script: reconnecttime   120       
+> 2016-09-27 11:01:03.658 Script: option confirm off
+< 2016-09-27 11:01:03.658 Script: confirm         off       
+> 2016-09-27 11:01:03.658 Script: option reconnecttime 120
+< 2016-09-27 11:01:03.658 Script: reconnecttime   120       
+> 2016-09-27 11:01:03.658 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 11:01:03.658 --------------------------------------------------------------------------
+. 2016-09-27 11:01:03.658 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 11:01:03.658 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 11:01:03.658 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 11:01:03.658 Transfer Protocol: FTP
+. 2016-09-27 11:01:03.658 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 11:01:03.659 Disable Nagle: No
+. 2016-09-27 11:01:03.659 Proxy: None
+. 2016-09-27 11:01:03.659 Send buffer: 262144
+. 2016-09-27 11:01:03.659 UTF: Auto
+. 2016-09-27 11:01:03.659 FTPS: None [Client certificate: No]
+. 2016-09-27 11:01:03.659 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 11:01:03.659 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 11:01:03.659 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 11:01:03.659 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 11:01:03.659 Timezone offset: 0h 0m
+. 2016-09-27 11:01:03.659 --------------------------------------------------------------------------
+. 2016-09-27 11:01:03.660 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 11:01:03.733 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 11:01:03.746 220 Microsoft FTP Service
+> 2016-09-27 11:01:03.746 USER appagainsthumanity\daryllogin
+< 2016-09-27 11:01:03.759 331 Password required
+> 2016-09-27 11:01:03.759 PASS ************
+< 2016-09-27 11:01:05.146 230 User logged in.
+> 2016-09-27 11:01:05.146 SYST
+. 2016-09-27 11:01:05.159 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 11:01:05.159 215 Windows_NT
+> 2016-09-27 11:01:05.159 FEAT
+< 2016-09-27 11:01:05.173 211-Extended features supported:
+< 2016-09-27 11:01:05.173  LANG EN*
+< 2016-09-27 11:01:05.173  UTF8
+< 2016-09-27 11:01:05.173  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 11:01:05.173  PBSZ
+< 2016-09-27 11:01:05.173  PROT C;P;
+< 2016-09-27 11:01:05.174  CCC
+< 2016-09-27 11:01:05.174  HOST
+< 2016-09-27 11:01:05.174  SIZE
+< 2016-09-27 11:01:05.174  MDTM
+< 2016-09-27 11:01:05.174  REST STREAM
+< 2016-09-27 11:01:05.174 211 END
+> 2016-09-27 11:01:05.174 OPTS UTF8 ON
+< 2016-09-27 11:01:05.191 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 11:01:05.191 Connected
+. 2016-09-27 11:01:05.191 --------------------------------------------------------------------------
+. 2016-09-27 11:01:05.191 Using FTP protocol.
+. 2016-09-27 11:01:05.191 Doing startup conversation with host.
+> 2016-09-27 11:01:05.192 PWD
+< 2016-09-27 11:01:05.205 257 "/" is current directory.
+. 2016-09-27 11:01:05.205 Getting current directory name.
+. 2016-09-27 11:01:05.205 Startup conversation with host finished.
+< 2016-09-27 11:01:05.205 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 11:01:05.270 Script: pwd
+< 2016-09-27 11:01:05.271 Script: /
+> 2016-09-27 11:01:05.333 Script: put  -nopermissions -preservetime -transfer="binary" -- "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\*" "/Genex/"
+. 2016-09-27 11:01:05.334 Copying 1 files/directories to remote directory "/Genex/"
+. 2016-09-27 11:01:05.334   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2016-09-27 11:01:05.335   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2016-09-27 11:01:05.335   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2016-09-27 11:01:05.335 File: 'C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt' [2016-09-27T01:23:33.791Z] [4]
+. 2016-09-27 11:01:05.335 Copying "C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt" to remote directory started.
+. 2016-09-27 11:01:05.336 Binary transfer mode selected.
+. 2016-09-27 11:01:05.336 Starting upload of C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt
+> 2016-09-27 11:01:05.336 CWD /Genex/
+< 2016-09-27 11:01:05.351 250 CWD command successful.
+> 2016-09-27 11:01:05.351 PWD
+< 2016-09-27 11:01:05.365 257 "/Genex" is current directory.
+> 2016-09-27 11:01:05.365 TYPE I
+< 2016-09-27 11:01:05.377 200 Type set to I.
+> 2016-09-27 11:01:05.378 PASV
+< 2016-09-27 11:01:05.392 227 Entering Passive Mode (138,91,232,14,39,131).
+> 2016-09-27 11:01:05.392 STOR Test.txt
+< 2016-09-27 11:01:05.414 150 Opening BINARY mode data connection.
+< 2016-09-27 11:01:05.432 226 Transfer complete.
+> 2016-09-27 11:01:05.432 MDTM 20160927012333 Test.txt
+< 2016-09-27 11:01:05.452 213 20160927012333
+. 2016-09-27 11:01:05.452 Upload successful
+. 2016-09-27 11:01:05.452 Transfer done: 'C:\Users\daryl\Documents\Genex\sftpDirectoryMover\baseDir\123\Test.txt' [4]
+> 2016-09-27 11:01:05.498 Script: exit
+. 2016-09-27 11:01:05.498 Script: Exit code: 0
+. 2016-09-27 11:01:05.500 Disconnected from server
+. 2016-09-27 11:01:09.002 --------------------------------------------------------------------------
+. 2016-09-27 11:01:09.002 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 11:01:09.002 Configuration: nul
+. 2016-09-27 11:01:09.002 Log level: Normal
+. 2016-09-27 11:01:09.002 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 11:01:09.002 Working directory: c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 11:01:09.002 Process ID: 9992
+. 2016-09-27 11:01:09.003 Command-line: "c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1E30.0106270B.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_7728_34921712_203
+. 2016-09-27 11:01:09.003 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 11:01:09.003 Login time: Tuesday, September 27, 2016 11:01:09 AM
+. 2016-09-27 11:01:09.003 --------------------------------------------------------------------------
+. 2016-09-27 11:01:09.003 Script: Retrospectively logging previous script records:
+> 2016-09-27 11:01:09.003 Script: option batch on
+< 2016-09-27 11:01:09.003 Script: batch           on        
+< 2016-09-27 11:01:09.003 Script: reconnecttime   120       
+> 2016-09-27 11:01:09.003 Script: option confirm off
+< 2016-09-27 11:01:09.003 Script: confirm         off       
+> 2016-09-27 11:01:09.003 Script: option reconnecttime 120
+< 2016-09-27 11:01:09.003 Script: reconnecttime   120       
+> 2016-09-27 11:01:09.003 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 11:01:09.003 --------------------------------------------------------------------------
+. 2016-09-27 11:01:09.003 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 11:01:09.003 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 11:01:09.003 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 11:01:09.003 Transfer Protocol: FTP
+. 2016-09-27 11:01:09.003 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 11:01:09.003 Disable Nagle: No
+. 2016-09-27 11:01:09.003 Proxy: None
+. 2016-09-27 11:01:09.003 Send buffer: 262144
+. 2016-09-27 11:01:09.003 UTF: Auto
+. 2016-09-27 11:01:09.003 FTPS: None [Client certificate: No]
+. 2016-09-27 11:01:09.003 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 11:01:09.003 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 11:01:09.003 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 11:01:09.003 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 11:01:09.003 Timezone offset: 0h 0m
+. 2016-09-27 11:01:09.003 --------------------------------------------------------------------------
+. 2016-09-27 11:01:09.005 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 11:01:09.023 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 11:01:09.037 220 Microsoft FTP Service
+> 2016-09-27 11:01:09.037 USER appagainsthumanity\daryllogin
+< 2016-09-27 11:01:09.052 331 Password required
+> 2016-09-27 11:01:09.052 PASS ************
+< 2016-09-27 11:01:09.075 230 User logged in.
+> 2016-09-27 11:01:09.076 SYST
+. 2016-09-27 11:01:09.091 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 11:01:09.091 215 Windows_NT
+> 2016-09-27 11:01:09.091 FEAT
+< 2016-09-27 11:01:09.112 211-Extended features supported:
+< 2016-09-27 11:01:09.112  LANG EN*
+< 2016-09-27 11:01:09.112  UTF8
+< 2016-09-27 11:01:09.112  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 11:01:09.112  PBSZ
+< 2016-09-27 11:01:09.113  PROT C;P;
+< 2016-09-27 11:01:09.113  CCC
+< 2016-09-27 11:01:09.113  HOST
+< 2016-09-27 11:01:09.113  SIZE
+< 2016-09-27 11:01:09.113  MDTM
+< 2016-09-27 11:01:09.113  REST STREAM
+< 2016-09-27 11:01:09.113 211 END
+> 2016-09-27 11:01:09.113 OPTS UTF8 ON
+< 2016-09-27 11:01:09.131 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 11:01:09.131 Connected
+. 2016-09-27 11:01:09.131 --------------------------------------------------------------------------
+. 2016-09-27 11:01:09.131 Using FTP protocol.
+. 2016-09-27 11:01:09.131 Doing startup conversation with host.
+> 2016-09-27 11:01:09.131 PWD
+< 2016-09-27 11:01:09.146 257 "/" is current directory.
+. 2016-09-27 11:01:09.147 Getting current directory name.
+. 2016-09-27 11:01:09.147 Startup conversation with host finished.
+< 2016-09-27 11:01:09.147 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 11:01:09.209 Script: pwd
+< 2016-09-27 11:01:09.209 Script: /
+> 2016-09-27 11:01:09.260 Script: exit
+. 2016-09-27 11:01:09.260 Script: Exit code: 0
+. 2016-09-27 11:01:09.261 Disconnected from server
+. 2016-09-27 11:01:29.452 --------------------------------------------------------------------------
+. 2016-09-27 11:01:29.452 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 11:01:29.452 Configuration: nul
+. 2016-09-27 11:01:29.452 Log level: Normal
+. 2016-09-27 11:01:29.452 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 11:01:29.452 Working directory: c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 11:01:29.452 Process ID: 4340
+. 2016-09-27 11:01:29.452 Command-line: "c:\users\daryl\documents\visual studio 2015\Projects\CID.Sftp.DirectoryTransfer\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2668.0106270B.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_9832_34921712_726
+. 2016-09-27 11:01:29.452 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 11:01:29.453 Login time: Tuesday, September 27, 2016 11:01:29 AM
+. 2016-09-27 11:01:29.453 --------------------------------------------------------------------------
+. 2016-09-27 11:01:29.453 Script: Retrospectively logging previous script records:
+> 2016-09-27 11:01:29.453 Script: option batch on
+< 2016-09-27 11:01:29.453 Script: batch           on        
+< 2016-09-27 11:01:29.453 Script: reconnecttime   120       
+> 2016-09-27 11:01:29.453 Script: option confirm off
+< 2016-09-27 11:01:29.453 Script: confirm         off       
+> 2016-09-27 11:01:29.453 Script: option reconnecttime 120
+< 2016-09-27 11:01:29.453 Script: reconnecttime   120       
+> 2016-09-27 11:01:29.453 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 11:01:29.453 --------------------------------------------------------------------------
+. 2016-09-27 11:01:29.453 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 11:01:29.453 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 11:01:29.453 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 11:01:29.453 Transfer Protocol: FTP
+. 2016-09-27 11:01:29.453 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 11:01:29.453 Disable Nagle: No
+. 2016-09-27 11:01:29.453 Proxy: None
+. 2016-09-27 11:01:29.453 Send buffer: 262144
+. 2016-09-27 11:01:29.453 UTF: Auto
+. 2016-09-27 11:01:29.453 FTPS: None [Client certificate: No]
+. 2016-09-27 11:01:29.453 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 11:01:29.453 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 11:01:29.453 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 11:01:29.453 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 11:01:29.453 Timezone offset: 0h 0m
+. 2016-09-27 11:01:29.453 --------------------------------------------------------------------------
+. 2016-09-27 11:01:29.458 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 11:01:29.618 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 11:01:29.631 220 Microsoft FTP Service
+> 2016-09-27 11:01:29.631 USER appagainsthumanity\daryllogin
+< 2016-09-27 11:01:29.645 331 Password required
+> 2016-09-27 11:01:29.645 PASS ************
+< 2016-09-27 11:01:31.836 230 User logged in.
+> 2016-09-27 11:01:31.836 SYST
+. 2016-09-27 11:01:31.849 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 11:01:31.849 215 Windows_NT
+> 2016-09-27 11:01:31.849 FEAT
+< 2016-09-27 11:01:31.862 211-Extended features supported:
+< 2016-09-27 11:01:31.862  LANG EN*
+< 2016-09-27 11:01:31.862  UTF8
+< 2016-09-27 11:01:31.862  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 11:01:31.862  PBSZ
+< 2016-09-27 11:01:31.862  PROT C;P;
+< 2016-09-27 11:01:31.872  CCC
+< 2016-09-27 11:01:31.872  HOST
+< 2016-09-27 11:01:31.872  SIZE
+< 2016-09-27 11:01:31.872  MDTM
+< 2016-09-27 11:01:31.872  REST STREAM
+< 2016-09-27 11:01:31.872 211 END
+> 2016-09-27 11:01:31.872 OPTS UTF8 ON
+< 2016-09-27 11:01:31.885 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 11:01:31.885 Connected
+. 2016-09-27 11:01:31.886 --------------------------------------------------------------------------
+. 2016-09-27 11:01:31.886 Using FTP protocol.
+. 2016-09-27 11:01:31.886 Doing startup conversation with host.
+> 2016-09-27 11:01:31.886 PWD
+< 2016-09-27 11:01:31.899 257 "/" is current directory.
+. 2016-09-27 11:01:31.899 Getting current directory name.
+. 2016-09-27 11:01:31.899 Startup conversation with host finished.
+< 2016-09-27 11:01:31.900 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 11:01:32.623 Script: pwd
+< 2016-09-27 11:01:32.623 Script: /
+> 2016-09-27 11:01:32.676 Script: exit
+. 2016-09-27 11:01:32.676 Script: Exit code: 0
+. 2016-09-27 11:01:32.679 Disconnected from server
+. 2016-09-27 18:53:48.635 --------------------------------------------------------------------------
+. 2016-09-27 18:53:48.635 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 18:53:48.635 Configuration: nul
+. 2016-09-27 18:53:48.635 Log level: Normal
+. 2016-09-27 18:53:48.635 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 18:53:48.635 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 18:53:48.635 Process ID: 9940
+. 2016-09-27 18:53:48.636 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1658.0106270B.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_5720_34921712_562
+. 2016-09-27 18:53:48.636 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 18:53:48.636 Login time: Tuesday, September 27, 2016 6:53:48 PM
+. 2016-09-27 18:53:48.636 --------------------------------------------------------------------------
+. 2016-09-27 18:53:48.636 Script: Retrospectively logging previous script records:
+> 2016-09-27 18:53:48.636 Script: option batch on
+< 2016-09-27 18:53:48.636 Script: batch           on        
+< 2016-09-27 18:53:48.636 Script: reconnecttime   120       
+> 2016-09-27 18:53:48.636 Script: option confirm off
+< 2016-09-27 18:53:48.636 Script: confirm         off       
+> 2016-09-27 18:53:48.636 Script: option reconnecttime 120
+< 2016-09-27 18:53:48.636 Script: reconnecttime   120       
+> 2016-09-27 18:53:48.636 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 18:53:48.636 --------------------------------------------------------------------------
+. 2016-09-27 18:53:48.636 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 18:53:48.636 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 18:53:48.636 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 18:53:48.636 Transfer Protocol: FTP
+. 2016-09-27 18:53:48.636 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 18:53:48.636 Disable Nagle: No
+. 2016-09-27 18:53:48.636 Proxy: None
+. 2016-09-27 18:53:48.636 Send buffer: 262144
+. 2016-09-27 18:53:48.636 UTF: Auto
+. 2016-09-27 18:53:48.636 FTPS: None [Client certificate: No]
+. 2016-09-27 18:53:48.636 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 18:53:48.636 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 18:53:48.636 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 18:53:48.636 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 18:53:48.636 Timezone offset: 0h 0m
+. 2016-09-27 18:53:48.636 --------------------------------------------------------------------------
+. 2016-09-27 18:53:48.648 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 18:53:48.813 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 18:53:48.828 220 Microsoft FTP Service
+> 2016-09-27 18:53:48.828 USER appagainsthumanity\daryllogin
+< 2016-09-27 18:53:48.842 331 Password required
+> 2016-09-27 18:53:48.842 PASS ************
+< 2016-09-27 18:53:49.747 230 User logged in.
+> 2016-09-27 18:53:49.747 SYST
+. 2016-09-27 18:53:49.762 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 18:53:49.762 215 Windows_NT
+> 2016-09-27 18:53:49.762 FEAT
+< 2016-09-27 18:53:49.776 211-Extended features supported:
+< 2016-09-27 18:53:49.776  LANG EN*
+< 2016-09-27 18:53:49.776  UTF8
+< 2016-09-27 18:53:49.776  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 18:53:49.776  PBSZ
+< 2016-09-27 18:53:49.776  PROT C;P;
+< 2016-09-27 18:53:49.776  CCC
+< 2016-09-27 18:53:49.776  HOST
+< 2016-09-27 18:53:49.776  SIZE
+< 2016-09-27 18:53:49.776  MDTM
+< 2016-09-27 18:53:49.776  REST STREAM
+< 2016-09-27 18:53:49.776 211 END
+> 2016-09-27 18:53:49.776 OPTS UTF8 ON
+< 2016-09-27 18:53:49.790 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 18:53:49.790 Connected
+. 2016-09-27 18:53:49.790 --------------------------------------------------------------------------
+. 2016-09-27 18:53:49.790 Using FTP protocol.
+. 2016-09-27 18:53:49.790 Doing startup conversation with host.
+> 2016-09-27 18:53:49.790 PWD
+< 2016-09-27 18:53:49.803 257 "/" is current directory.
+. 2016-09-27 18:53:49.803 Getting current directory name.
+. 2016-09-27 18:53:49.803 Startup conversation with host finished.
+< 2016-09-27 18:53:49.804 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 18:53:50.227 Script: pwd
+< 2016-09-27 18:53:50.227 Script: /
+> 2016-09-27 18:53:50.277 Script: exit
+. 2016-09-27 18:53:50.279 Script: Exit code: 0
+. 2016-09-27 18:53:50.279 Disconnected from server
+. 2016-09-27 19:07:22.985 --------------------------------------------------------------------------
+. 2016-09-27 19:07:22.985 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:07:22.986 Configuration: nul
+. 2016-09-27 19:07:22.986 Log level: Normal
+. 2016-09-27 19:07:22.986 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:07:22.986 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:07:22.986 Process ID: 10116
+. 2016-09-27 19:07:22.986 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp14A0.02A24DA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_5280_67006466_928
+. 2016-09-27 19:07:22.986 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:07:22.987 Login time: Tuesday, September 27, 2016 7:07:22 PM
+. 2016-09-27 19:07:22.987 --------------------------------------------------------------------------
+. 2016-09-27 19:07:22.987 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:07:22.987 Script: option batch on
+< 2016-09-27 19:07:22.987 Script: batch           on        
+< 2016-09-27 19:07:22.987 Script: reconnecttime   120       
+> 2016-09-27 19:07:22.987 Script: option confirm off
+< 2016-09-27 19:07:22.987 Script: confirm         off       
+> 2016-09-27 19:07:22.987 Script: option reconnecttime 120
+< 2016-09-27 19:07:22.987 Script: reconnecttime   120       
+> 2016-09-27 19:07:22.987 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:07:22.987 --------------------------------------------------------------------------
+. 2016-09-27 19:07:22.987 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:07:22.987 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:07:22.987 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:07:22.987 Transfer Protocol: FTP
+. 2016-09-27 19:07:22.987 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:07:22.987 Disable Nagle: No
+. 2016-09-27 19:07:22.987 Proxy: None
+. 2016-09-27 19:07:22.987 Send buffer: 262144
+. 2016-09-27 19:07:22.987 UTF: Auto
+. 2016-09-27 19:07:22.987 FTPS: None [Client certificate: No]
+. 2016-09-27 19:07:22.987 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:07:22.987 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:07:22.987 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:07:22.987 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:07:22.987 Timezone offset: 0h 0m
+. 2016-09-27 19:07:22.987 --------------------------------------------------------------------------
+. 2016-09-27 19:07:23.046 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:07:23.147 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:07:23.159 220 Microsoft FTP Service
+> 2016-09-27 19:07:23.159 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:07:23.172 331 Password required
+> 2016-09-27 19:07:23.172 PASS ************
+< 2016-09-27 19:07:24.511 230 User logged in.
+> 2016-09-27 19:07:24.511 SYST
+. 2016-09-27 19:07:24.532 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:07:24.532 215 Windows_NT
+> 2016-09-27 19:07:24.532 FEAT
+< 2016-09-27 19:07:24.545 211-Extended features supported:
+< 2016-09-27 19:07:24.545  LANG EN*
+< 2016-09-27 19:07:24.545  UTF8
+< 2016-09-27 19:07:24.545  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:07:24.545  PBSZ
+< 2016-09-27 19:07:24.545  PROT C;P;
+< 2016-09-27 19:07:24.545  CCC
+< 2016-09-27 19:07:24.545  HOST
+< 2016-09-27 19:07:24.545  SIZE
+< 2016-09-27 19:07:24.545  MDTM
+< 2016-09-27 19:07:24.545  REST STREAM
+< 2016-09-27 19:07:24.545 211 END
+> 2016-09-27 19:07:24.545 OPTS UTF8 ON
+< 2016-09-27 19:07:24.562 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:07:24.562 Connected
+. 2016-09-27 19:07:24.562 --------------------------------------------------------------------------
+. 2016-09-27 19:07:24.562 Using FTP protocol.
+. 2016-09-27 19:07:24.562 Doing startup conversation with host.
+> 2016-09-27 19:07:24.563 PWD
+< 2016-09-27 19:07:24.575 257 "/" is current directory.
+. 2016-09-27 19:07:24.575 Getting current directory name.
+. 2016-09-27 19:07:24.575 Startup conversation with host finished.
+< 2016-09-27 19:07:24.575 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:07:25.356 Script: pwd
+< 2016-09-27 19:07:25.356 Script: /
+> 2016-09-27 19:07:25.408 Script: exit
+. 2016-09-27 19:07:25.409 Script: Exit code: 0
+. 2016-09-27 19:07:25.410 Disconnected from server
+. 2016-09-27 19:08:36.371 --------------------------------------------------------------------------
+. 2016-09-27 19:08:36.371 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:08:36.372 Configuration: nul
+. 2016-09-27 19:08:36.372 Log level: Normal
+. 2016-09-27 19:08:36.372 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:08:36.372 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:08:36.372 Process ID: 11692
+. 2016-09-27 19:08:36.372 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp3074.02A24DA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_12404_67006466_332
+. 2016-09-27 19:08:36.372 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:08:36.372 Login time: Tuesday, September 27, 2016 7:08:36 PM
+. 2016-09-27 19:08:36.372 --------------------------------------------------------------------------
+. 2016-09-27 19:08:36.372 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:08:36.372 Script: option batch on
+< 2016-09-27 19:08:36.372 Script: batch           on        
+< 2016-09-27 19:08:36.372 Script: reconnecttime   120       
+> 2016-09-27 19:08:36.372 Script: option confirm off
+< 2016-09-27 19:08:36.372 Script: confirm         off       
+> 2016-09-27 19:08:36.372 Script: option reconnecttime 120
+< 2016-09-27 19:08:36.372 Script: reconnecttime   120       
+> 2016-09-27 19:08:36.372 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:08:36.372 --------------------------------------------------------------------------
+. 2016-09-27 19:08:36.372 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:08:36.372 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:08:36.373 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:08:36.373 Transfer Protocol: FTP
+. 2016-09-27 19:08:36.373 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:08:36.373 Disable Nagle: No
+. 2016-09-27 19:08:36.373 Proxy: None
+. 2016-09-27 19:08:36.373 Send buffer: 262144
+. 2016-09-27 19:08:36.373 UTF: Auto
+. 2016-09-27 19:08:36.373 FTPS: None [Client certificate: No]
+. 2016-09-27 19:08:36.373 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:08:36.373 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:08:36.373 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:08:36.373 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:08:36.373 Timezone offset: 0h 0m
+. 2016-09-27 19:08:36.373 --------------------------------------------------------------------------
+. 2016-09-27 19:08:36.375 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:08:36.472 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:08:36.487 220 Microsoft FTP Service
+> 2016-09-27 19:08:36.487 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:08:36.501 331 Password required
+> 2016-09-27 19:08:36.501 PASS ************
+< 2016-09-27 19:08:37.280 230 User logged in.
+> 2016-09-27 19:08:37.281 SYST
+. 2016-09-27 19:08:37.293 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:08:37.293 215 Windows_NT
+> 2016-09-27 19:08:37.293 FEAT
+< 2016-09-27 19:08:37.306 211-Extended features supported:
+< 2016-09-27 19:08:37.307  LANG EN*
+< 2016-09-27 19:08:37.307  UTF8
+< 2016-09-27 19:08:37.307  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:08:37.307  PBSZ
+< 2016-09-27 19:08:37.307  PROT C;P;
+< 2016-09-27 19:08:37.307  CCC
+< 2016-09-27 19:08:37.307  HOST
+< 2016-09-27 19:08:37.307  SIZE
+< 2016-09-27 19:08:37.307  MDTM
+< 2016-09-27 19:08:37.307  REST STREAM
+< 2016-09-27 19:08:37.307 211 END
+> 2016-09-27 19:08:37.307 OPTS UTF8 ON
+< 2016-09-27 19:08:37.320 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:08:37.320 Connected
+. 2016-09-27 19:08:37.320 --------------------------------------------------------------------------
+. 2016-09-27 19:08:37.320 Using FTP protocol.
+. 2016-09-27 19:08:37.320 Doing startup conversation with host.
+> 2016-09-27 19:08:37.320 PWD
+< 2016-09-27 19:08:37.334 257 "/" is current directory.
+. 2016-09-27 19:08:37.334 Getting current directory name.
+. 2016-09-27 19:08:37.334 Startup conversation with host finished.
+< 2016-09-27 19:08:37.334 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:08:37.987 Script: pwd
+< 2016-09-27 19:08:37.988 Script: /
+> 2016-09-27 19:08:38.040 Script: exit
+. 2016-09-27 19:08:38.040 Script: Exit code: 0
+. 2016-09-27 19:08:38.041 Disconnected from server
+. 2016-09-27 19:10:41.747 --------------------------------------------------------------------------
+. 2016-09-27 19:10:41.747 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:10:41.747 Configuration: nul
+. 2016-09-27 19:10:41.747 Log level: Normal
+. 2016-09-27 19:10:41.747 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:10:41.747 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:10:41.747 Process ID: 6968
+. 2016-09-27 19:10:41.748 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp14AC.02A24DA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_5292_67006466_601
+. 2016-09-27 19:10:41.748 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:10:41.748 Login time: Tuesday, September 27, 2016 7:10:41 PM
+. 2016-09-27 19:10:41.748 --------------------------------------------------------------------------
+. 2016-09-27 19:10:41.748 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:10:41.748 Script: option batch on
+< 2016-09-27 19:10:41.748 Script: batch           on        
+< 2016-09-27 19:10:41.748 Script: reconnecttime   120       
+> 2016-09-27 19:10:41.748 Script: option confirm off
+< 2016-09-27 19:10:41.748 Script: confirm         off       
+> 2016-09-27 19:10:41.748 Script: option reconnecttime 120
+< 2016-09-27 19:10:41.748 Script: reconnecttime   120       
+> 2016-09-27 19:10:41.748 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:10:41.748 --------------------------------------------------------------------------
+. 2016-09-27 19:10:41.748 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:10:41.748 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:10:41.748 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:10:41.748 Transfer Protocol: FTP
+. 2016-09-27 19:10:41.748 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:10:41.748 Disable Nagle: No
+. 2016-09-27 19:10:41.748 Proxy: None
+. 2016-09-27 19:10:41.748 Send buffer: 262144
+. 2016-09-27 19:10:41.748 UTF: Auto
+. 2016-09-27 19:10:41.748 FTPS: None [Client certificate: No]
+. 2016-09-27 19:10:41.748 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:10:41.748 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:10:41.748 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:10:41.748 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:10:41.748 Timezone offset: 0h 0m
+. 2016-09-27 19:10:41.748 --------------------------------------------------------------------------
+. 2016-09-27 19:10:41.753 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:10:41.826 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:10:41.841 220 Microsoft FTP Service
+> 2016-09-27 19:10:41.841 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:10:41.859 331 Password required
+> 2016-09-27 19:10:41.859 PASS ************
+< 2016-09-27 19:10:42.839 230 User logged in.
+> 2016-09-27 19:10:42.839 SYST
+. 2016-09-27 19:10:42.852 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:10:42.852 215 Windows_NT
+> 2016-09-27 19:10:42.852 FEAT
+< 2016-09-27 19:10:42.865 211-Extended features supported:
+< 2016-09-27 19:10:42.865  LANG EN*
+< 2016-09-27 19:10:42.865  UTF8
+< 2016-09-27 19:10:42.865  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:10:42.865  PBSZ
+< 2016-09-27 19:10:42.865  PROT C;P;
+< 2016-09-27 19:10:42.865  CCC
+< 2016-09-27 19:10:42.865  HOST
+< 2016-09-27 19:10:42.865  SIZE
+< 2016-09-27 19:10:42.865  MDTM
+< 2016-09-27 19:10:42.865  REST STREAM
+< 2016-09-27 19:10:42.865 211 END
+> 2016-09-27 19:10:42.865 OPTS UTF8 ON
+< 2016-09-27 19:10:42.879 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:10:42.879 Connected
+. 2016-09-27 19:10:42.880 --------------------------------------------------------------------------
+. 2016-09-27 19:10:42.880 Using FTP protocol.
+. 2016-09-27 19:10:42.880 Doing startup conversation with host.
+> 2016-09-27 19:10:42.880 PWD
+< 2016-09-27 19:10:42.895 257 "/" is current directory.
+. 2016-09-27 19:10:42.895 Getting current directory name.
+. 2016-09-27 19:10:42.895 Startup conversation with host finished.
+< 2016-09-27 19:10:42.895 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:10:43.352 Script: pwd
+< 2016-09-27 19:10:43.353 Script: /
+> 2016-09-27 19:10:43.405 Script: exit
+. 2016-09-27 19:10:43.405 Script: Exit code: 0
+. 2016-09-27 19:10:43.406 Disconnected from server
+. 2016-09-27 19:10:52.294 --------------------------------------------------------------------------
+. 2016-09-27 19:10:52.294 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:10:52.294 Configuration: nul
+. 2016-09-27 19:10:52.294 Log level: Normal
+. 2016-09-27 19:10:52.294 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:10:52.294 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:10:52.294 Process ID: 10904
+. 2016-09-27 19:10:52.295 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2570.0106270B.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_9584_34921712_425
+. 2016-09-27 19:10:52.295 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:10:52.295 Login time: Tuesday, September 27, 2016 7:10:52 PM
+. 2016-09-27 19:10:52.295 --------------------------------------------------------------------------
+. 2016-09-27 19:10:52.295 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:10:52.295 Script: option batch on
+< 2016-09-27 19:10:52.295 Script: batch           on        
+< 2016-09-27 19:10:52.295 Script: reconnecttime   120       
+> 2016-09-27 19:10:52.295 Script: option confirm off
+< 2016-09-27 19:10:52.295 Script: confirm         off       
+> 2016-09-27 19:10:52.295 Script: option reconnecttime 120
+< 2016-09-27 19:10:52.295 Script: reconnecttime   120       
+> 2016-09-27 19:10:52.295 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:10:52.295 --------------------------------------------------------------------------
+. 2016-09-27 19:10:52.295 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:10:52.295 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:10:52.295 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:10:52.295 Transfer Protocol: FTP
+. 2016-09-27 19:10:52.295 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:10:52.295 Disable Nagle: No
+. 2016-09-27 19:10:52.295 Proxy: None
+. 2016-09-27 19:10:52.295 Send buffer: 262144
+. 2016-09-27 19:10:52.295 UTF: Auto
+. 2016-09-27 19:10:52.295 FTPS: None [Client certificate: No]
+. 2016-09-27 19:10:52.295 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:10:52.295 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:10:52.296 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:10:52.296 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:10:52.296 Timezone offset: 0h 0m
+. 2016-09-27 19:10:52.296 --------------------------------------------------------------------------
+. 2016-09-27 19:10:52.439 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:10:52.600 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:10:52.614 220 Microsoft FTP Service
+> 2016-09-27 19:10:52.614 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:10:52.635 331 Password required
+> 2016-09-27 19:10:52.635 PASS ************
+< 2016-09-27 19:10:53.426 230 User logged in.
+> 2016-09-27 19:10:53.426 SYST
+. 2016-09-27 19:10:53.439 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:10:53.439 215 Windows_NT
+> 2016-09-27 19:10:53.439 FEAT
+< 2016-09-27 19:10:53.452 211-Extended features supported:
+< 2016-09-27 19:10:53.452  LANG EN*
+< 2016-09-27 19:10:53.452  UTF8
+< 2016-09-27 19:10:53.452  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:10:53.452  PBSZ
+< 2016-09-27 19:10:53.452  PROT C;P;
+< 2016-09-27 19:10:53.452  CCC
+< 2016-09-27 19:10:53.452  HOST
+< 2016-09-27 19:10:53.452  SIZE
+< 2016-09-27 19:10:53.452  MDTM
+< 2016-09-27 19:10:53.452  REST STREAM
+< 2016-09-27 19:10:53.463 211 END
+> 2016-09-27 19:10:53.463 OPTS UTF8 ON
+< 2016-09-27 19:10:53.475 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:10:53.475 Connected
+. 2016-09-27 19:10:53.475 --------------------------------------------------------------------------
+. 2016-09-27 19:10:53.475 Using FTP protocol.
+. 2016-09-27 19:10:53.475 Doing startup conversation with host.
+> 2016-09-27 19:10:53.476 PWD
+< 2016-09-27 19:10:53.498 257 "/" is current directory.
+. 2016-09-27 19:10:53.498 Getting current directory name.
+. 2016-09-27 19:10:53.498 Startup conversation with host finished.
+< 2016-09-27 19:10:53.499 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:10:53.923 Script: pwd
+< 2016-09-27 19:10:53.924 Script: /
+> 2016-09-27 19:10:53.976 Script: exit
+. 2016-09-27 19:10:53.976 Script: Exit code: 0
+. 2016-09-27 19:10:53.977 Disconnected from server
+. 2016-09-27 19:11:24.103 --------------------------------------------------------------------------
+. 2016-09-27 19:11:24.103 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:11:24.104 Configuration: nul
+. 2016-09-27 19:11:24.104 Log level: Normal
+. 2016-09-27 19:11:24.104 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:11:24.104 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:11:24.104 Process ID: 11248
+. 2016-09-27 19:11:24.104 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2988.02A24DA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_10632_67006466_983
+. 2016-09-27 19:11:24.104 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:11:24.104 Login time: Tuesday, September 27, 2016 7:11:24 PM
+. 2016-09-27 19:11:24.104 --------------------------------------------------------------------------
+. 2016-09-27 19:11:24.104 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:11:24.104 Script: option batch on
+< 2016-09-27 19:11:24.104 Script: batch           on        
+< 2016-09-27 19:11:24.104 Script: reconnecttime   120       
+> 2016-09-27 19:11:24.104 Script: option confirm off
+< 2016-09-27 19:11:24.104 Script: confirm         off       
+> 2016-09-27 19:11:24.104 Script: option reconnecttime 120
+< 2016-09-27 19:11:24.104 Script: reconnecttime   120       
+> 2016-09-27 19:11:24.104 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:11:24.104 --------------------------------------------------------------------------
+. 2016-09-27 19:11:24.104 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:11:24.104 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:11:24.105 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:11:24.105 Transfer Protocol: FTP
+. 2016-09-27 19:11:24.105 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:11:24.105 Disable Nagle: No
+. 2016-09-27 19:11:24.105 Proxy: None
+. 2016-09-27 19:11:24.105 Send buffer: 262144
+. 2016-09-27 19:11:24.105 UTF: Auto
+. 2016-09-27 19:11:24.105 FTPS: None [Client certificate: No]
+. 2016-09-27 19:11:24.105 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:11:24.105 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:11:24.105 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:11:24.105 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:11:24.105 Timezone offset: 0h 0m
+. 2016-09-27 19:11:24.105 --------------------------------------------------------------------------
+. 2016-09-27 19:11:24.121 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:11:24.215 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:11:24.229 220 Microsoft FTP Service
+> 2016-09-27 19:11:24.229 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:11:24.245 331 Password required
+> 2016-09-27 19:11:24.245 PASS ************
+< 2016-09-27 19:11:25.552 230 User logged in.
+> 2016-09-27 19:11:25.552 SYST
+. 2016-09-27 19:11:25.573 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:11:25.573 215 Windows_NT
+> 2016-09-27 19:11:25.573 FEAT
+< 2016-09-27 19:11:25.585 211-Extended features supported:
+< 2016-09-27 19:11:25.586  LANG EN*
+< 2016-09-27 19:11:25.586  UTF8
+< 2016-09-27 19:11:25.586  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:11:25.586  PBSZ
+< 2016-09-27 19:11:25.586  PROT C;P;
+< 2016-09-27 19:11:25.586  CCC
+< 2016-09-27 19:11:25.586  HOST
+< 2016-09-27 19:11:25.586  SIZE
+< 2016-09-27 19:11:25.586  MDTM
+< 2016-09-27 19:11:25.586  REST STREAM
+< 2016-09-27 19:11:25.586 211 END
+> 2016-09-27 19:11:25.586 OPTS UTF8 ON
+< 2016-09-27 19:11:25.603 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:11:25.603 Connected
+. 2016-09-27 19:11:25.603 --------------------------------------------------------------------------
+. 2016-09-27 19:11:25.603 Using FTP protocol.
+. 2016-09-27 19:11:25.603 Doing startup conversation with host.
+> 2016-09-27 19:11:25.603 PWD
+< 2016-09-27 19:11:25.616 257 "/" is current directory.
+. 2016-09-27 19:11:25.616 Getting current directory name.
+. 2016-09-27 19:11:25.616 Startup conversation with host finished.
+< 2016-09-27 19:11:25.616 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:11:25.721 Script: pwd
+< 2016-09-27 19:11:25.721 Script: /
+> 2016-09-27 19:11:25.773 Script: exit
+. 2016-09-27 19:11:25.773 Script: Exit code: 0
+. 2016-09-27 19:11:25.774 Disconnected from server
+. 2016-09-27 19:12:22.962 --------------------------------------------------------------------------
+. 2016-09-27 19:12:22.963 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:12:22.963 Configuration: nul
+. 2016-09-27 19:12:22.963 Log level: Normal
+. 2016-09-27 19:12:22.963 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:12:22.963 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:12:22.963 Process ID: 13020
+. 2016-09-27 19:12:22.963 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp11AC.02A24DA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_4524_67006466_610
+. 2016-09-27 19:12:22.963 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:12:22.963 Login time: Tuesday, September 27, 2016 7:12:22 PM
+. 2016-09-27 19:12:22.963 --------------------------------------------------------------------------
+. 2016-09-27 19:12:22.963 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:12:22.963 Script: option batch on
+< 2016-09-27 19:12:22.963 Script: batch           on        
+< 2016-09-27 19:12:22.963 Script: reconnecttime   120       
+> 2016-09-27 19:12:22.963 Script: option confirm off
+< 2016-09-27 19:12:22.964 Script: confirm         off       
+> 2016-09-27 19:12:22.964 Script: option reconnecttime 120
+< 2016-09-27 19:12:22.964 Script: reconnecttime   120       
+> 2016-09-27 19:12:22.964 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:12:22.964 --------------------------------------------------------------------------
+. 2016-09-27 19:12:22.964 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:12:22.964 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:12:22.964 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:12:22.964 Transfer Protocol: FTP
+. 2016-09-27 19:12:22.964 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:12:22.964 Disable Nagle: No
+. 2016-09-27 19:12:22.964 Proxy: None
+. 2016-09-27 19:12:22.964 Send buffer: 262144
+. 2016-09-27 19:12:22.964 UTF: Auto
+. 2016-09-27 19:12:22.964 FTPS: None [Client certificate: No]
+. 2016-09-27 19:12:22.964 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:12:22.964 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:12:22.964 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:12:22.964 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:12:22.964 Timezone offset: 0h 0m
+. 2016-09-27 19:12:22.964 --------------------------------------------------------------------------
+. 2016-09-27 19:12:22.967 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:12:23.052 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:12:23.066 220 Microsoft FTP Service
+> 2016-09-27 19:12:23.069 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:12:23.085 331 Password required
+> 2016-09-27 19:12:23.085 PASS ************
+< 2016-09-27 19:12:24.465 230 User logged in.
+> 2016-09-27 19:12:24.465 SYST
+. 2016-09-27 19:12:24.479 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:12:24.479 215 Windows_NT
+> 2016-09-27 19:12:24.479 FEAT
+< 2016-09-27 19:12:24.493 211-Extended features supported:
+< 2016-09-27 19:12:24.493  LANG EN*
+< 2016-09-27 19:12:24.493  UTF8
+< 2016-09-27 19:12:24.493  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:12:24.493  PBSZ
+< 2016-09-27 19:12:24.493  PROT C;P;
+< 2016-09-27 19:12:24.493  CCC
+< 2016-09-27 19:12:24.493  HOST
+< 2016-09-27 19:12:24.493  SIZE
+< 2016-09-27 19:12:24.493  MDTM
+< 2016-09-27 19:12:24.493  REST STREAM
+< 2016-09-27 19:12:24.493 211 END
+> 2016-09-27 19:12:24.493 OPTS UTF8 ON
+< 2016-09-27 19:12:24.510 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:12:24.510 Connected
+. 2016-09-27 19:12:24.510 --------------------------------------------------------------------------
+. 2016-09-27 19:12:24.510 Using FTP protocol.
+. 2016-09-27 19:12:24.510 Doing startup conversation with host.
+> 2016-09-27 19:12:24.510 PWD
+< 2016-09-27 19:12:24.523 257 "/" is current directory.
+. 2016-09-27 19:12:24.523 Getting current directory name.
+. 2016-09-27 19:12:24.523 Startup conversation with host finished.
+< 2016-09-27 19:12:24.524 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:12:24.572 Script: pwd
+< 2016-09-27 19:12:24.572 Script: /
+> 2016-09-27 19:12:24.624 Script: exit
+. 2016-09-27 19:12:24.624 Script: Exit code: 0
+. 2016-09-27 19:12:24.625 Disconnected from server
+. 2016-09-27 19:17:35.343 --------------------------------------------------------------------------
+. 2016-09-27 19:17:35.343 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:17:35.343 Configuration: nul
+. 2016-09-27 19:17:35.343 Log level: Normal
+. 2016-09-27 19:17:35.343 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:17:35.343 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:17:35.343 Process ID: 10248
+. 2016-09-27 19:17:35.344 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2428.02AB3E58.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_9256_23919673_967
+. 2016-09-27 19:17:35.344 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:17:35.344 Login time: Tuesday, September 27, 2016 7:17:35 PM
+. 2016-09-27 19:17:35.344 --------------------------------------------------------------------------
+. 2016-09-27 19:17:35.344 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:17:35.344 Script: option batch on
+< 2016-09-27 19:17:35.344 Script: batch           on        
+< 2016-09-27 19:17:35.344 Script: reconnecttime   120       
+> 2016-09-27 19:17:35.344 Script: option confirm off
+< 2016-09-27 19:17:35.344 Script: confirm         off       
+> 2016-09-27 19:17:35.344 Script: option reconnecttime 120
+< 2016-09-27 19:17:35.344 Script: reconnecttime   120       
+> 2016-09-27 19:17:35.344 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:17:35.344 --------------------------------------------------------------------------
+. 2016-09-27 19:17:35.344 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:17:35.344 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:17:35.345 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:17:35.345 Transfer Protocol: FTP
+. 2016-09-27 19:17:35.345 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:17:35.345 Disable Nagle: No
+. 2016-09-27 19:17:35.345 Proxy: None
+. 2016-09-27 19:17:35.345 Send buffer: 262144
+. 2016-09-27 19:17:35.345 UTF: Auto
+. 2016-09-27 19:17:35.345 FTPS: None [Client certificate: No]
+. 2016-09-27 19:17:35.345 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:17:35.345 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:17:35.345 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:17:35.345 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:17:35.345 Timezone offset: 0h 0m
+. 2016-09-27 19:17:35.345 --------------------------------------------------------------------------
+. 2016-09-27 19:17:35.349 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:17:35.547 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:17:35.564 220 Microsoft FTP Service
+> 2016-09-27 19:17:35.564 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:17:35.578 331 Password required
+> 2016-09-27 19:17:35.578 PASS ************
+< 2016-09-27 19:17:36.781 230 User logged in.
+> 2016-09-27 19:17:36.781 SYST
+. 2016-09-27 19:17:36.794 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:17:36.794 215 Windows_NT
+> 2016-09-27 19:17:36.794 FEAT
+< 2016-09-27 19:17:36.811 211-Extended features supported:
+< 2016-09-27 19:17:36.812  LANG EN*
+< 2016-09-27 19:17:36.812  UTF8
+< 2016-09-27 19:17:36.812  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:17:36.812  PBSZ
+< 2016-09-27 19:17:36.812  PROT C;P;
+< 2016-09-27 19:17:36.812  CCC
+< 2016-09-27 19:17:36.812  HOST
+< 2016-09-27 19:17:36.812  SIZE
+< 2016-09-27 19:17:36.812  MDTM
+< 2016-09-27 19:17:36.812  REST STREAM
+< 2016-09-27 19:17:36.812 211 END
+> 2016-09-27 19:17:36.812 OPTS UTF8 ON
+< 2016-09-27 19:17:36.825 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:17:36.825 Connected
+. 2016-09-27 19:17:36.825 --------------------------------------------------------------------------
+. 2016-09-27 19:17:36.825 Using FTP protocol.
+. 2016-09-27 19:17:36.825 Doing startup conversation with host.
+> 2016-09-27 19:17:36.826 PWD
+< 2016-09-27 19:17:36.839 257 "/" is current directory.
+. 2016-09-27 19:17:36.839 Getting current directory name.
+. 2016-09-27 19:17:36.839 Startup conversation with host finished.
+< 2016-09-27 19:17:36.839 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:17:36.958 Script: pwd
+< 2016-09-27 19:17:36.958 Script: /
+> 2016-09-27 19:17:37.010 Script: exit
+. 2016-09-27 19:17:37.011 Script: Exit code: 0
+. 2016-09-27 19:17:37.013 Disconnected from server
+. 2016-09-27 19:17:52.064 --------------------------------------------------------------------------
+. 2016-09-27 19:17:52.064 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:17:52.064 Configuration: nul
+. 2016-09-27 19:17:52.064 Log level: Normal
+. 2016-09-27 19:17:52.064 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:17:52.064 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:17:52.064 Process ID: 5300
+. 2016-09-27 19:17:52.065 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp249C.00DBEFA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_9372_44638367_559
+. 2016-09-27 19:17:52.065 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:17:52.065 Login time: Tuesday, September 27, 2016 7:17:52 PM
+. 2016-09-27 19:17:52.065 --------------------------------------------------------------------------
+. 2016-09-27 19:17:52.065 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:17:52.065 Script: option batch on
+< 2016-09-27 19:17:52.065 Script: batch           on        
+< 2016-09-27 19:17:52.065 Script: reconnecttime   120       
+> 2016-09-27 19:17:52.065 Script: option confirm off
+< 2016-09-27 19:17:52.065 Script: confirm         off       
+> 2016-09-27 19:17:52.065 Script: option reconnecttime 120
+< 2016-09-27 19:17:52.065 Script: reconnecttime   120       
+> 2016-09-27 19:17:52.065 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:17:52.065 --------------------------------------------------------------------------
+. 2016-09-27 19:17:52.065 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:17:52.065 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:17:52.065 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:17:52.065 Transfer Protocol: FTP
+. 2016-09-27 19:17:52.065 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:17:52.065 Disable Nagle: No
+. 2016-09-27 19:17:52.065 Proxy: None
+. 2016-09-27 19:17:52.065 Send buffer: 262144
+. 2016-09-27 19:17:52.065 UTF: Auto
+. 2016-09-27 19:17:52.065 FTPS: None [Client certificate: No]
+. 2016-09-27 19:17:52.065 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:17:52.065 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:17:52.065 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:17:52.065 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:17:52.065 Timezone offset: 0h 0m
+. 2016-09-27 19:17:52.065 --------------------------------------------------------------------------
+. 2016-09-27 19:17:52.072 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:17:52.145 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:17:52.159 220 Microsoft FTP Service
+> 2016-09-27 19:17:52.159 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:17:52.175 331 Password required
+> 2016-09-27 19:17:52.175 PASS ************
+< 2016-09-27 19:17:53.172 230 User logged in.
+> 2016-09-27 19:17:53.172 SYST
+. 2016-09-27 19:17:53.188 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:17:53.188 215 Windows_NT
+> 2016-09-27 19:17:53.188 FEAT
+< 2016-09-27 19:17:53.201 211-Extended features supported:
+< 2016-09-27 19:17:53.201  LANG EN*
+< 2016-09-27 19:17:53.212  UTF8
+< 2016-09-27 19:17:53.212  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:17:53.212  PBSZ
+< 2016-09-27 19:17:53.212  PROT C;P;
+< 2016-09-27 19:17:53.212  CCC
+< 2016-09-27 19:17:53.212  HOST
+< 2016-09-27 19:17:53.212  SIZE
+< 2016-09-27 19:17:53.212  MDTM
+< 2016-09-27 19:17:53.212  REST STREAM
+< 2016-09-27 19:17:53.212 211 END
+> 2016-09-27 19:17:53.212 OPTS UTF8 ON
+< 2016-09-27 19:17:53.223 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:17:53.223 Connected
+. 2016-09-27 19:17:53.223 --------------------------------------------------------------------------
+. 2016-09-27 19:17:53.223 Using FTP protocol.
+. 2016-09-27 19:17:53.223 Doing startup conversation with host.
+> 2016-09-27 19:17:53.223 PWD
+< 2016-09-27 19:17:53.236 257 "/" is current directory.
+. 2016-09-27 19:17:53.236 Getting current directory name.
+. 2016-09-27 19:17:53.236 Startup conversation with host finished.
+< 2016-09-27 19:17:53.236 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:17:53.677 Script: pwd
+< 2016-09-27 19:17:53.678 Script: /
+> 2016-09-27 19:17:53.730 Script: exit
+. 2016-09-27 19:17:53.730 Script: Exit code: 0
+. 2016-09-27 19:17:53.732 Disconnected from server
+. 2016-09-27 19:19:30.263 --------------------------------------------------------------------------
+. 2016-09-27 19:19:30.263 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:19:30.263 Configuration: nul
+. 2016-09-27 19:19:30.263 Log level: Normal
+. 2016-09-27 19:19:30.263 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:19:30.263 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:19:30.263 Process ID: 2880
+. 2016-09-27 19:19:30.264 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1E38.02AB3E58.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_7736_23919673_846
+. 2016-09-27 19:19:30.264 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:19:30.264 Login time: Tuesday, September 27, 2016 7:19:30 PM
+. 2016-09-27 19:19:30.264 --------------------------------------------------------------------------
+. 2016-09-27 19:19:30.264 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:19:30.264 Script: option batch on
+< 2016-09-27 19:19:30.264 Script: batch           on        
+< 2016-09-27 19:19:30.264 Script: reconnecttime   120       
+> 2016-09-27 19:19:30.264 Script: option confirm off
+< 2016-09-27 19:19:30.264 Script: confirm         off       
+> 2016-09-27 19:19:30.264 Script: option reconnecttime 120
+< 2016-09-27 19:19:30.264 Script: reconnecttime   120       
+> 2016-09-27 19:19:30.264 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:19:30.264 --------------------------------------------------------------------------
+. 2016-09-27 19:19:30.264 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:19:30.264 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:19:30.264 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:19:30.264 Transfer Protocol: FTP
+. 2016-09-27 19:19:30.264 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:19:30.264 Disable Nagle: No
+. 2016-09-27 19:19:30.264 Proxy: None
+. 2016-09-27 19:19:30.264 Send buffer: 262144
+. 2016-09-27 19:19:30.264 UTF: Auto
+. 2016-09-27 19:19:30.264 FTPS: None [Client certificate: No]
+. 2016-09-27 19:19:30.264 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:19:30.264 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:19:30.264 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:19:30.264 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:19:30.264 Timezone offset: 0h 0m
+. 2016-09-27 19:19:30.264 --------------------------------------------------------------------------
+. 2016-09-27 19:19:30.278 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:19:30.457 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:19:30.474 220 Microsoft FTP Service
+> 2016-09-27 19:19:30.474 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:19:30.487 331 Password required
+> 2016-09-27 19:19:30.487 PASS ************
+< 2016-09-27 19:19:31.831 230 User logged in.
+> 2016-09-27 19:19:31.831 SYST
+. 2016-09-27 19:19:31.844 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:19:31.844 215 Windows_NT
+> 2016-09-27 19:19:31.844 FEAT
+< 2016-09-27 19:19:31.856 211-Extended features supported:
+< 2016-09-27 19:19:31.856  LANG EN*
+< 2016-09-27 19:19:31.856  UTF8
+< 2016-09-27 19:19:31.856  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:19:31.856  PBSZ
+< 2016-09-27 19:19:31.856  PROT C;P;
+< 2016-09-27 19:19:31.856  CCC
+< 2016-09-27 19:19:31.856  HOST
+< 2016-09-27 19:19:31.856  SIZE
+< 2016-09-27 19:19:31.856  MDTM
+< 2016-09-27 19:19:31.856  REST STREAM
+< 2016-09-27 19:19:31.857 211 END
+> 2016-09-27 19:19:31.857 OPTS UTF8 ON
+< 2016-09-27 19:19:31.869 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:19:31.869 Connected
+. 2016-09-27 19:19:31.869 --------------------------------------------------------------------------
+. 2016-09-27 19:19:31.869 Using FTP protocol.
+. 2016-09-27 19:19:31.869 Doing startup conversation with host.
+> 2016-09-27 19:19:31.869 PWD
+< 2016-09-27 19:19:31.884 257 "/" is current directory.
+. 2016-09-27 19:19:31.884 Getting current directory name.
+. 2016-09-27 19:19:31.884 Startup conversation with host finished.
+< 2016-09-27 19:19:31.884 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:19:32.679 Script: pwd
+< 2016-09-27 19:19:32.679 Script: /
+> 2016-09-27 19:19:32.733 Script: exit
+. 2016-09-27 19:19:32.733 Script: Exit code: 0
+. 2016-09-27 19:19:32.736 Disconnected from server
+. 2016-09-27 19:21:59.684 --------------------------------------------------------------------------
+. 2016-09-27 19:21:59.684 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:21:59.684 Configuration: nul
+. 2016-09-27 19:21:59.684 Log level: Normal
+. 2016-09-27 19:21:59.684 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:21:59.684 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:21:59.684 Process ID: 5608
+. 2016-09-27 19:21:59.685 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1460.02BE232C.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_5216_24843616_323
+. 2016-09-27 19:21:59.685 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:21:59.685 Login time: Tuesday, September 27, 2016 7:21:59 PM
+. 2016-09-27 19:21:59.685 --------------------------------------------------------------------------
+. 2016-09-27 19:21:59.685 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:21:59.685 Script: option batch on
+< 2016-09-27 19:21:59.685 Script: batch           on        
+< 2016-09-27 19:21:59.685 Script: reconnecttime   120       
+> 2016-09-27 19:21:59.685 Script: option confirm off
+< 2016-09-27 19:21:59.685 Script: confirm         off       
+> 2016-09-27 19:21:59.685 Script: option reconnecttime 120
+< 2016-09-27 19:21:59.685 Script: reconnecttime   120       
+> 2016-09-27 19:21:59.685 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:21:59.685 --------------------------------------------------------------------------
+. 2016-09-27 19:21:59.685 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:21:59.685 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:21:59.685 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:21:59.685 Transfer Protocol: FTP
+. 2016-09-27 19:21:59.685 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:21:59.685 Disable Nagle: No
+. 2016-09-27 19:21:59.685 Proxy: None
+. 2016-09-27 19:21:59.685 Send buffer: 262144
+. 2016-09-27 19:21:59.685 UTF: Auto
+. 2016-09-27 19:21:59.685 FTPS: None [Client certificate: No]
+. 2016-09-27 19:21:59.685 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:21:59.685 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:21:59.685 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:21:59.685 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:21:59.685 Timezone offset: 0h 0m
+. 2016-09-27 19:21:59.685 --------------------------------------------------------------------------
+. 2016-09-27 19:21:59.687 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:21:59.848 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:21:59.862 220 Microsoft FTP Service
+> 2016-09-27 19:21:59.862 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:21:59.886 331 Password required
+> 2016-09-27 19:21:59.886 PASS ************
+< 2016-09-27 19:22:01.084 230 User logged in.
+> 2016-09-27 19:22:01.084 SYST
+. 2016-09-27 19:22:01.097 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:22:01.097 215 Windows_NT
+> 2016-09-27 19:22:01.097 FEAT
+< 2016-09-27 19:22:01.110 211-Extended features supported:
+< 2016-09-27 19:22:01.110  LANG EN*
+< 2016-09-27 19:22:01.110  UTF8
+< 2016-09-27 19:22:01.110  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:22:01.110  PBSZ
+< 2016-09-27 19:22:01.110  PROT C;P;
+< 2016-09-27 19:22:01.110  CCC
+< 2016-09-27 19:22:01.110  HOST
+< 2016-09-27 19:22:01.110  SIZE
+< 2016-09-27 19:22:01.110  MDTM
+< 2016-09-27 19:22:01.110  REST STREAM
+< 2016-09-27 19:22:01.110 211 END
+> 2016-09-27 19:22:01.110 OPTS UTF8 ON
+< 2016-09-27 19:22:01.122 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:22:01.123 Connected
+. 2016-09-27 19:22:01.123 --------------------------------------------------------------------------
+. 2016-09-27 19:22:01.123 Using FTP protocol.
+. 2016-09-27 19:22:01.123 Doing startup conversation with host.
+> 2016-09-27 19:22:01.123 PWD
+< 2016-09-27 19:22:01.141 257 "/" is current directory.
+. 2016-09-27 19:22:01.141 Getting current directory name.
+. 2016-09-27 19:22:01.141 Startup conversation with host finished.
+< 2016-09-27 19:22:01.142 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:22:01.295 Script: pwd
+< 2016-09-27 19:22:01.295 Script: /
+> 2016-09-27 19:22:01.346 Script: exit
+. 2016-09-27 19:22:01.346 Script: Exit code: 0
+. 2016-09-27 19:22:01.348 Disconnected from server
+. 2016-09-27 19:22:15.342 --------------------------------------------------------------------------
+. 2016-09-27 19:22:15.343 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:22:15.343 Configuration: nul
+. 2016-09-27 19:22:15.343 Log level: Normal
+. 2016-09-27 19:22:15.343 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:22:15.343 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 19:22:15.343 Process ID: 2112
+. 2016-09-27 19:22:15.343 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2044.03A5B667.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_8260_25835152_413
+. 2016-09-27 19:22:15.343 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:22:15.343 Login time: Tuesday, September 27, 2016 7:22:15 PM
+. 2016-09-27 19:22:15.343 --------------------------------------------------------------------------
+. 2016-09-27 19:22:15.343 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:22:15.343 Script: option batch on
+< 2016-09-27 19:22:15.343 Script: batch           on        
+< 2016-09-27 19:22:15.343 Script: reconnecttime   120       
+> 2016-09-27 19:22:15.343 Script: option confirm off
+< 2016-09-27 19:22:15.343 Script: confirm         off       
+> 2016-09-27 19:22:15.343 Script: option reconnecttime 120
+< 2016-09-27 19:22:15.343 Script: reconnecttime   120       
+> 2016-09-27 19:22:15.343 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:22:15.343 --------------------------------------------------------------------------
+. 2016-09-27 19:22:15.343 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:22:15.344 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:22:15.344 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:22:15.344 Transfer Protocol: FTP
+. 2016-09-27 19:22:15.344 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:22:15.344 Disable Nagle: No
+. 2016-09-27 19:22:15.344 Proxy: None
+. 2016-09-27 19:22:15.344 Send buffer: 262144
+. 2016-09-27 19:22:15.344 UTF: Auto
+. 2016-09-27 19:22:15.344 FTPS: None [Client certificate: No]
+. 2016-09-27 19:22:15.344 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:22:15.344 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:22:15.344 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:22:15.344 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:22:15.344 Timezone offset: 0h 0m
+. 2016-09-27 19:22:15.344 --------------------------------------------------------------------------
+. 2016-09-27 19:22:15.348 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:22:15.565 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:22:15.584 220 Microsoft FTP Service
+> 2016-09-27 19:22:15.584 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:22:15.598 331 Password required
+> 2016-09-27 19:22:15.598 PASS ************
+< 2016-09-27 19:22:15.627 230 User logged in.
+> 2016-09-27 19:22:15.627 SYST
+. 2016-09-27 19:22:15.640 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:22:15.640 215 Windows_NT
+> 2016-09-27 19:22:15.640 FEAT
+< 2016-09-27 19:22:15.659 211-Extended features supported:
+< 2016-09-27 19:22:15.659  LANG EN*
+< 2016-09-27 19:22:15.659  UTF8
+< 2016-09-27 19:22:15.659  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:22:15.659  PBSZ
+< 2016-09-27 19:22:15.659  PROT C;P;
+< 2016-09-27 19:22:15.659  CCC
+< 2016-09-27 19:22:15.659  HOST
+< 2016-09-27 19:22:15.659  SIZE
+< 2016-09-27 19:22:15.659  MDTM
+< 2016-09-27 19:22:15.659  REST STREAM
+< 2016-09-27 19:22:15.659 211 END
+> 2016-09-27 19:22:15.659 OPTS UTF8 ON
+< 2016-09-27 19:22:15.673 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:22:15.701 Connected
+. 2016-09-27 19:22:15.701 --------------------------------------------------------------------------
+. 2016-09-27 19:22:15.701 Using FTP protocol.
+. 2016-09-27 19:22:15.701 Doing startup conversation with host.
+> 2016-09-27 19:22:15.702 PWD
+< 2016-09-27 19:22:15.717 257 "/" is current directory.
+. 2016-09-27 19:22:15.717 Getting current directory name.
+. 2016-09-27 19:22:15.717 Startup conversation with host finished.
+< 2016-09-27 19:22:15.717 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:22:15.758 Script: pwd
+< 2016-09-27 19:22:15.758 Script: /
+> 2016-09-27 19:22:15.809 Script: exit
+. 2016-09-27 19:22:15.810 Script: Exit code: 0
+. 2016-09-27 19:22:15.811 Disconnected from server
+. 2016-09-27 19:23:39.108 --------------------------------------------------------------------------
+. 2016-09-27 19:23:39.108 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:23:39.108 Configuration: nul
+. 2016-09-27 19:23:39.108 Log level: Normal
+. 2016-09-27 19:23:39.108 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:23:39.108 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 19:23:39.108 Process ID: 2792
+. 2016-09-27 19:23:39.108 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1180.02A9209F.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_4480_62569468_892
+. 2016-09-27 19:23:39.108 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:23:39.109 Login time: Tuesday, September 27, 2016 7:23:39 PM
+. 2016-09-27 19:23:39.109 --------------------------------------------------------------------------
+. 2016-09-27 19:23:39.109 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:23:39.109 Script: option batch on
+< 2016-09-27 19:23:39.109 Script: batch           on        
+< 2016-09-27 19:23:39.109 Script: reconnecttime   120       
+> 2016-09-27 19:23:39.109 Script: option confirm off
+< 2016-09-27 19:23:39.109 Script: confirm         off       
+> 2016-09-27 19:23:39.109 Script: option reconnecttime 120
+< 2016-09-27 19:23:39.109 Script: reconnecttime   120       
+> 2016-09-27 19:23:39.109 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:23:39.109 --------------------------------------------------------------------------
+. 2016-09-27 19:23:39.109 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:23:39.109 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:23:39.109 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:23:39.109 Transfer Protocol: FTP
+. 2016-09-27 19:23:39.109 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:23:39.109 Disable Nagle: No
+. 2016-09-27 19:23:39.109 Proxy: None
+. 2016-09-27 19:23:39.109 Send buffer: 262144
+. 2016-09-27 19:23:39.109 UTF: Auto
+. 2016-09-27 19:23:39.109 FTPS: None [Client certificate: No]
+. 2016-09-27 19:23:39.109 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:23:39.109 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:23:39.109 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:23:39.109 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:23:39.109 Timezone offset: 0h 0m
+. 2016-09-27 19:23:39.109 --------------------------------------------------------------------------
+. 2016-09-27 19:23:39.111 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:23:39.226 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:23:39.240 220 Microsoft FTP Service
+> 2016-09-27 19:23:39.240 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:23:39.255 331 Password required
+> 2016-09-27 19:23:39.255 PASS ************
+< 2016-09-27 19:23:40.437 230 User logged in.
+> 2016-09-27 19:23:40.437 SYST
+. 2016-09-27 19:23:40.452 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:23:40.452 215 Windows_NT
+> 2016-09-27 19:23:40.452 FEAT
+< 2016-09-27 19:23:40.465 211-Extended features supported:
+< 2016-09-27 19:23:40.465  LANG EN*
+< 2016-09-27 19:23:40.465  UTF8
+< 2016-09-27 19:23:40.465  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:23:40.465  PBSZ
+< 2016-09-27 19:23:40.465  PROT C;P;
+< 2016-09-27 19:23:40.465  CCC
+< 2016-09-27 19:23:40.465  HOST
+< 2016-09-27 19:23:40.465  SIZE
+< 2016-09-27 19:23:40.465  MDTM
+< 2016-09-27 19:23:40.465  REST STREAM
+< 2016-09-27 19:23:40.465 211 END
+> 2016-09-27 19:23:40.465 OPTS UTF8 ON
+< 2016-09-27 19:23:40.479 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:23:40.480 Connected
+. 2016-09-27 19:23:40.480 --------------------------------------------------------------------------
+. 2016-09-27 19:23:40.480 Using FTP protocol.
+. 2016-09-27 19:23:40.480 Doing startup conversation with host.
+> 2016-09-27 19:23:40.481 PWD
+< 2016-09-27 19:23:40.495 257 "/" is current directory.
+. 2016-09-27 19:23:40.495 Getting current directory name.
+. 2016-09-27 19:23:40.496 Startup conversation with host finished.
+< 2016-09-27 19:23:40.496 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+. 2016-09-27 19:23:46.260 --------------------------------------------------------------------------
+. 2016-09-27 19:23:46.260 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:23:46.260 Configuration: nul
+. 2016-09-27 19:23:46.260 Log level: Normal
+. 2016-09-27 19:23:46.260 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:23:46.260 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 19:23:46.260 Process ID: 11872
+. 2016-09-27 19:23:46.261 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp0AC8.00DBEFA8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_2760_44638367_727
+. 2016-09-27 19:23:46.261 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:23:46.261 Login time: Tuesday, September 27, 2016 7:23:46 PM
+. 2016-09-27 19:23:46.261 --------------------------------------------------------------------------
+. 2016-09-27 19:23:46.261 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:23:46.261 Script: option batch on
+< 2016-09-27 19:23:46.261 Script: batch           on        
+< 2016-09-27 19:23:46.261 Script: reconnecttime   120       
+> 2016-09-27 19:23:46.261 Script: option confirm off
+< 2016-09-27 19:23:46.261 Script: confirm         off       
+> 2016-09-27 19:23:46.261 Script: option reconnecttime 120
+< 2016-09-27 19:23:46.261 Script: reconnecttime   120       
+> 2016-09-27 19:23:46.261 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:23:46.261 --------------------------------------------------------------------------
+. 2016-09-27 19:23:46.261 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:23:46.261 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:23:46.261 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:23:46.261 Transfer Protocol: FTP
+. 2016-09-27 19:23:46.261 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:23:46.261 Disable Nagle: No
+. 2016-09-27 19:23:46.261 Proxy: None
+. 2016-09-27 19:23:46.261 Send buffer: 262144
+. 2016-09-27 19:23:46.261 UTF: Auto
+. 2016-09-27 19:23:46.261 FTPS: None [Client certificate: No]
+. 2016-09-27 19:23:46.261 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:23:46.261 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:23:46.261 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:23:46.261 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:23:46.261 Timezone offset: 0h 0m
+. 2016-09-27 19:23:46.261 --------------------------------------------------------------------------
+. 2016-09-27 19:23:46.263 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:23:46.286 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:23:46.300 220 Microsoft FTP Service
+> 2016-09-27 19:23:46.300 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:23:46.313 331 Password required
+> 2016-09-27 19:23:46.313 PASS ************
+< 2016-09-27 19:23:46.492 230 User logged in.
+> 2016-09-27 19:23:46.492 SYST
+. 2016-09-27 19:23:46.505 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:23:46.505 215 Windows_NT
+> 2016-09-27 19:23:46.505 FEAT
+< 2016-09-27 19:23:46.526 211-Extended features supported:
+< 2016-09-27 19:23:46.526  LANG EN*
+< 2016-09-27 19:23:46.526  UTF8
+< 2016-09-27 19:23:46.526  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:23:46.526  PBSZ
+< 2016-09-27 19:23:46.526  PROT C;P;
+< 2016-09-27 19:23:46.526  CCC
+< 2016-09-27 19:23:46.527  HOST
+< 2016-09-27 19:23:46.527  SIZE
+< 2016-09-27 19:23:46.527  MDTM
+< 2016-09-27 19:23:46.527  REST STREAM
+< 2016-09-27 19:23:46.527 211 END
+> 2016-09-27 19:23:46.527 OPTS UTF8 ON
+< 2016-09-27 19:23:46.539 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:23:46.539 Connected
+. 2016-09-27 19:23:46.539 --------------------------------------------------------------------------
+. 2016-09-27 19:23:46.539 Using FTP protocol.
+. 2016-09-27 19:23:46.539 Doing startup conversation with host.
+> 2016-09-27 19:23:46.540 PWD
+< 2016-09-27 19:23:46.554 257 "/" is current directory.
+. 2016-09-27 19:23:46.554 Getting current directory name.
+. 2016-09-27 19:23:46.554 Startup conversation with host finished.
+< 2016-09-27 19:23:46.554 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:23:46.658 Script: pwd
+< 2016-09-27 19:23:46.658 Script: /
+> 2016-09-27 19:23:46.710 Script: exit
+. 2016-09-27 19:23:46.710 Script: Exit code: 0
+. 2016-09-27 19:23:46.711 Disconnected from server
+. 2016-09-27 19:58:43.902 --------------------------------------------------------------------------
+. 2016-09-27 19:58:43.902 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:58:43.902 Configuration: nul
+. 2016-09-27 19:58:43.902 Log level: Normal
+. 2016-09-27 19:58:43.902 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:58:43.902 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 19:58:43.902 Process ID: 9696
+. 2016-09-27 19:58:43.903 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2AAC.03FE7002.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_10924_62910583_767
+. 2016-09-27 19:58:43.903 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:58:43.903 Login time: Tuesday, September 27, 2016 7:58:43 PM
+. 2016-09-27 19:58:43.903 --------------------------------------------------------------------------
+. 2016-09-27 19:58:43.903 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:58:43.903 Script: option batch on
+< 2016-09-27 19:58:43.903 Script: batch           on        
+< 2016-09-27 19:58:43.903 Script: reconnecttime   120       
+> 2016-09-27 19:58:43.903 Script: option confirm off
+< 2016-09-27 19:58:43.903 Script: confirm         off       
+> 2016-09-27 19:58:43.903 Script: option reconnecttime 120
+< 2016-09-27 19:58:43.903 Script: reconnecttime   120       
+> 2016-09-27 19:58:43.903 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:58:43.903 --------------------------------------------------------------------------
+. 2016-09-27 19:58:43.903 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:58:43.903 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:58:43.903 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:58:43.903 Transfer Protocol: FTP
+. 2016-09-27 19:58:43.903 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:58:43.903 Disable Nagle: No
+. 2016-09-27 19:58:43.903 Proxy: None
+. 2016-09-27 19:58:43.903 Send buffer: 262144
+. 2016-09-27 19:58:43.903 UTF: Auto
+. 2016-09-27 19:58:43.903 FTPS: None [Client certificate: No]
+. 2016-09-27 19:58:43.903 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:58:43.903 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:58:43.903 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:58:43.903 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:58:43.903 Timezone offset: 0h 0m
+. 2016-09-27 19:58:43.903 --------------------------------------------------------------------------
+. 2016-09-27 19:58:43.907 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:58:44.021 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:58:44.037 220 Microsoft FTP Service
+> 2016-09-27 19:58:44.037 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:58:44.050 331 Password required
+> 2016-09-27 19:58:44.050 PASS ************
+< 2016-09-27 19:58:45.012 230 User logged in.
+> 2016-09-27 19:58:45.012 SYST
+. 2016-09-27 19:58:45.025 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:58:45.025 215 Windows_NT
+> 2016-09-27 19:58:45.025 FEAT
+< 2016-09-27 19:58:45.038 211-Extended features supported:
+< 2016-09-27 19:58:45.038  LANG EN*
+< 2016-09-27 19:58:45.038  UTF8
+< 2016-09-27 19:58:45.038  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:58:45.038  PBSZ
+< 2016-09-27 19:58:45.038  PROT C;P;
+< 2016-09-27 19:58:45.038  CCC
+< 2016-09-27 19:58:45.038  HOST
+< 2016-09-27 19:58:45.038  SIZE
+< 2016-09-27 19:58:45.038  MDTM
+< 2016-09-27 19:58:45.038  REST STREAM
+< 2016-09-27 19:58:45.038 211 END
+> 2016-09-27 19:58:45.038 OPTS UTF8 ON
+< 2016-09-27 19:58:45.051 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:58:45.052 Connected
+. 2016-09-27 19:58:45.052 --------------------------------------------------------------------------
+. 2016-09-27 19:58:45.052 Using FTP protocol.
+. 2016-09-27 19:58:45.052 Doing startup conversation with host.
+> 2016-09-27 19:58:45.052 PWD
+< 2016-09-27 19:58:45.065 257 "/" is current directory.
+. 2016-09-27 19:58:45.065 Getting current directory name.
+. 2016-09-27 19:58:45.065 Startup conversation with host finished.
+< 2016-09-27 19:58:45.065 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:58:45.513 Script: pwd
+< 2016-09-27 19:58:45.513 Script: /
+> 2016-09-27 19:58:45.566 Script: exit
+. 2016-09-27 19:58:45.566 Script: Exit code: 0
+. 2016-09-27 19:58:45.568 Disconnected from server
+. 2016-09-27 19:59:15.053 --------------------------------------------------------------------------
+. 2016-09-27 19:59:15.053 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 19:59:15.053 Configuration: nul
+. 2016-09-27 19:59:15.053 Log level: Normal
+. 2016-09-27 19:59:15.053 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 19:59:15.053 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug
+. 2016-09-27 19:59:15.053 Process ID: 10892
+. 2016-09-27 19:59:15.054 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Debug\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp2EF0.03FE7002.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_12016_62910583_952
+. 2016-09-27 19:59:15.054 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 19:59:15.054 Login time: Tuesday, September 27, 2016 7:59:15 PM
+. 2016-09-27 19:59:15.054 --------------------------------------------------------------------------
+. 2016-09-27 19:59:15.054 Script: Retrospectively logging previous script records:
+> 2016-09-27 19:59:15.054 Script: option batch on
+< 2016-09-27 19:59:15.054 Script: batch           on        
+< 2016-09-27 19:59:15.054 Script: reconnecttime   120       
+> 2016-09-27 19:59:15.054 Script: option confirm off
+< 2016-09-27 19:59:15.054 Script: confirm         off       
+> 2016-09-27 19:59:15.054 Script: option reconnecttime 120
+< 2016-09-27 19:59:15.054 Script: reconnecttime   120       
+> 2016-09-27 19:59:15.054 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 19:59:15.054 --------------------------------------------------------------------------
+. 2016-09-27 19:59:15.054 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 19:59:15.054 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 19:59:15.054 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 19:59:15.054 Transfer Protocol: FTP
+. 2016-09-27 19:59:15.054 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 19:59:15.054 Disable Nagle: No
+. 2016-09-27 19:59:15.054 Proxy: None
+. 2016-09-27 19:59:15.054 Send buffer: 262144
+. 2016-09-27 19:59:15.054 UTF: Auto
+. 2016-09-27 19:59:15.054 FTPS: None [Client certificate: No]
+. 2016-09-27 19:59:15.054 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 19:59:15.054 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 19:59:15.054 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 19:59:15.054 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 19:59:15.054 Timezone offset: 0h 0m
+. 2016-09-27 19:59:15.054 --------------------------------------------------------------------------
+. 2016-09-27 19:59:15.075 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 19:59:15.281 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 19:59:15.294 220 Microsoft FTP Service
+> 2016-09-27 19:59:15.294 USER appagainsthumanity\daryllogin
+< 2016-09-27 19:59:15.306 331 Password required
+> 2016-09-27 19:59:15.307 PASS ************
+< 2016-09-27 19:59:16.106 230 User logged in.
+> 2016-09-27 19:59:16.106 SYST
+. 2016-09-27 19:59:16.119 The server is probably running Windows, assuming that directory listing timestamps are affected by DST.
+< 2016-09-27 19:59:16.119 215 Windows_NT
+> 2016-09-27 19:59:16.119 FEAT
+< 2016-09-27 19:59:16.133 211-Extended features supported:
+< 2016-09-27 19:59:16.133  LANG EN*
+< 2016-09-27 19:59:16.133  UTF8
+< 2016-09-27 19:59:16.133  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2016-09-27 19:59:16.133  PBSZ
+< 2016-09-27 19:59:16.133  PROT C;P;
+< 2016-09-27 19:59:16.133  CCC
+< 2016-09-27 19:59:16.133  HOST
+< 2016-09-27 19:59:16.133  SIZE
+< 2016-09-27 19:59:16.133  MDTM
+< 2016-09-27 19:59:16.133  REST STREAM
+< 2016-09-27 19:59:16.133 211 END
+> 2016-09-27 19:59:16.133 OPTS UTF8 ON
+< 2016-09-27 19:59:16.151 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2016-09-27 19:59:16.151 Connected
+. 2016-09-27 19:59:16.151 --------------------------------------------------------------------------
+. 2016-09-27 19:59:16.151 Using FTP protocol.
+. 2016-09-27 19:59:16.151 Doing startup conversation with host.
+> 2016-09-27 19:59:16.151 PWD
+< 2016-09-27 19:59:16.164 257 "/" is current directory.
+. 2016-09-27 19:59:16.164 Getting current directory name.
+. 2016-09-27 19:59:16.164 Startup conversation with host finished.
+< 2016-09-27 19:59:16.164 Script: Active session: [1] appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net
+> 2016-09-27 19:59:16.663 Script: pwd
+< 2016-09-27 19:59:16.663 Script: /
+> 2016-09-27 19:59:16.715 Script: exit
+. 2016-09-27 19:59:16.715 Script: Exit code: 0
+. 2016-09-27 19:59:16.717 Disconnected from server
+. 2016-09-27 20:06:09.803 --------------------------------------------------------------------------
+. 2016-09-27 20:06:09.803 WinSCP Version 5.9.2 (Build 6958) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2016-09-27 20:06:09.803 Configuration: nul
+. 2016-09-27 20:06:09.804 Log level: Normal
+. 2016-09-27 20:06:09.804 Local account: DESKTOP-QK3GMM0\daryl
+. 2016-09-27 20:06:09.804 Working directory: C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release
+. 2016-09-27 20:06:09.804 Process ID: 7596
+. 2016-09-27 20:06:09.804 Command-line: "C:\Users\daryl\Documents\Visual Studio 2015\Projects\CID.Sftp.DirectoryTransfer\src\CID.Sftp.DirectoryTransfer\bin\Release\winscp.exe" /xmllog="C:\Users\daryl\AppData\Local\Temp\wscp1168.0214DCF0.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=592  /ini=nul /log="..\logs\winscp.16-09-27.log"  /console /consoleinstance=_4456_27973187_513
+. 2016-09-27 20:06:09.804 Time zone: Current: GMT-7, Standard: GMT-8 (Pacific Standard Time), DST: GMT-7 (Pacific Daylight Time), DST Start: 3/13/2016, DST End: 11/6/2016
+. 2016-09-27 20:06:09.804 Login time: Tuesday, September 27, 2016 8:06:09 PM
+. 2016-09-27 20:06:09.804 --------------------------------------------------------------------------
+. 2016-09-27 20:06:09.805 Script: Retrospectively logging previous script records:
+> 2016-09-27 20:06:09.805 Script: option batch on
+< 2016-09-27 20:06:09.805 Script: batch           on        
+< 2016-09-27 20:06:09.805 Script: reconnecttime   120       
+> 2016-09-27 20:06:09.805 Script: option confirm off
+< 2016-09-27 20:06:09.805 Script: confirm         off       
+> 2016-09-27 20:06:09.805 Script: option reconnecttime 120
+< 2016-09-27 20:06:09.805 Script: reconnecttime   120       
+> 2016-09-27 20:06:09.805 Script: open ftp://appagainsthumanity%5Cdaryllogin:***@waws-prod-bay-007.ftp.azurewebsites.windows.net -passive=1 -timeout=15
+. 2016-09-27 20:06:09.805 --------------------------------------------------------------------------
+. 2016-09-27 20:06:09.805 Session name: appagainsthumanity\daryllogin@waws-prod-bay-007.ftp.azurewebsites.windows.net (Ad-Hoc site)
+. 2016-09-27 20:06:09.805 Host name: waws-prod-bay-007.ftp.azurewebsites.windows.net (Port: 21)
+. 2016-09-27 20:06:09.805 User name: appagainsthumanity\daryllogin (Password: Yes, Key file: No)
+. 2016-09-27 20:06:09.805 Transfer Protocol: FTP
+. 2016-09-27 20:06:09.805 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2016-09-27 20:06:09.805 Disable Nagle: No
+. 2016-09-27 20:06:09.805 Proxy: None
+. 2016-09-27 20:06:09.805 Send buffer: 262144
+. 2016-09-27 20:06:09.805 UTF: Auto
+. 2016-09-27 20:06:09.805 FTPS: None [Client certificate: No]
+. 2016-09-27 20:06:09.805 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2016-09-27 20:06:09.805 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2016-09-27 20:06:09.805 Cache directory changes: Yes, Permanent: Yes
+. 2016-09-27 20:06:09.805 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2016-09-27 20:06:09.805 Timezone offset: 0h 0m
+. 2016-09-27 20:06:09.805 --------------------------------------------------------------------------
+. 2016-09-27 20:06:09.807 Connecting to waws-prod-bay-007.ftp.azurewebsites.windows.net ...
+. 2016-09-27 20:06:10.006 Connected with waws-prod-bay-007.ftp.azurewebsites.windows.net. Waiting for welcome message...
+< 2016-09-27 20:06:10.020 220 Microsoft FTP Service
+> 2016-09-27 20:06:10.020 USER appagainsthumanity\daryllogin
+< 2016-09-27 20:06:10.033 331 Password required
+> 2016-09-27 20:06:10.033 PASS ***********
+< 2016-09-27 20:06:10.526 530 User cannot log in.
+. 2016-09-27 20:06:10.526 Connection failed.
+. 2016-09-27 20:06:10.527 Password prompt (last login attempt failed)
